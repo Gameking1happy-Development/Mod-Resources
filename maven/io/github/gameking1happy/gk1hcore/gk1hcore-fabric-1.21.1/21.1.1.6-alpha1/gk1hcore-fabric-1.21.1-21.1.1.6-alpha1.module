@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1hcore",
+    "module": "gk1hcore-fabric-1.21.1",
+    "version": "21.1.1.6-alpha1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1.jar",
+          "url": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1.jar",
+          "size": 17440,
+          "sha512": "0786a4e80d3f46e0762f555f065056b92cdbf477738cf0ac733ca78de396b829513be86c6cd084bff1694e3f00d9a50d6d8d0707510d8359a2b66e6180e3ec83",
+          "sha256": "c40664c60bf616696996558df43501952fde2541e621583f3a5677f477ac4c5c",
+          "sha1": "752f17ebab4c663173a48a27a9cd642c1cb24901",
+          "md5": "74411ac57af7205b1697f7e5b11302de"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.6"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.0"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.7+1.21.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1.jar",
+          "url": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1.jar",
+          "size": 17440,
+          "sha512": "0786a4e80d3f46e0762f555f065056b92cdbf477738cf0ac733ca78de396b829513be86c6cd084bff1694e3f00d9a50d6d8d0707510d8359a2b66e6180e3ec83",
+          "sha256": "c40664c60bf616696996558df43501952fde2541e621583f3a5677f477ac4c5c",
+          "sha1": "752f17ebab4c663173a48a27a9cd642c1cb24901",
+          "md5": "74411ac57af7205b1697f7e5b11302de"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1-sources.jar",
+          "url": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1-sources.jar",
+          "size": 11719,
+          "sha512": "339eaa2ad020a4d0c759c73a8e3013df4c8bdb33509ffe07ad7f57a63e69f475efb4a11035b50126cbe8d8a9470cb1803f77621f13424e125203828fae2f90cc",
+          "sha256": "24b00a640317847970c7cedd7a371a6d7e0a6b57c2aa27ba8186470630ea7379",
+          "sha1": "129fcd8fc5876e8918b019e72bfb48fb3b5dad2e",
+          "md5": "a50a95922b46cdd81888de7ba2a022b4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1-javadoc.jar",
+          "url": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1-javadoc.jar",
+          "size": 123776,
+          "sha512": "4d7528fcee5d6fde1ea9d7c62f464f174e0cdb3e3b24f50a783c5d35253c7787fcd4e8cb23f223cdbabb471440efd3ac3d1cb4c0aaa3451135b8660726a8f21d",
+          "sha256": "8d31d64077a1cdd520108f8d85b665da95c846ce2fe628bf1167803a56a673df",
+          "sha1": "519075b302545b24e2ddc345ea70eb3f48223120",
+          "md5": "80ba6b11b9fb4139ce7ab77697171901"
+        }
+      ]
+    }
+  ]
+}
