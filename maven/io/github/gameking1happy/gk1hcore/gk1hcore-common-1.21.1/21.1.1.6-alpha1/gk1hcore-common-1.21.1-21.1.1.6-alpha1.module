@@ -36,11 +36,11 @@
         {
           "name": "gk1hcore-common-1.21.1-21.1.1.6-alpha1.jar",
           "url": "gk1hcore-common-1.21.1-21.1.1.6-alpha1.jar",
-          "size": 11743,
-          "sha512": "2ca05e9e39236669f10d05c34cfa61879f3092be92d57ef7de1ee13631b8dc3838216f90e06482d70bc1337f3852e60bd02120f6e19daa2f9088690342d42739",
-          "sha256": "b07b69796a41fd8fccea81fada461fc75ad10ae2b2f80535adc9bf978d036b98",
-          "sha1": "53839dd53c36b6effaf05d260750f4ecd6aa5e5b",
-          "md5": "28fd167b2208a9b090e28b225ff88a52"
+          "size": 11769,
+          "sha512": "c9dac3c51279878c95181b11c2ec7a0982eec0361c9624c75213d1b8df985381267c807e1db9ced1339e02b070c9c633146c42734aad9776f7bb2e6b6fdec6ae",
+          "sha256": "487af09b56c5ff6b1a38463a7daba8e0c9bd876c7c4d0b9075b8d90722b8288d",
+          "sha1": "bda6d6586d1071c4efb74dac39cbed87808bc347",
+          "md5": "8cd778ef2fc4c6bfc78cb9d05fbce9cf"
         }
       ]
     },
@@ -66,11 +66,11 @@
         {
           "name": "gk1hcore-common-1.21.1-21.1.1.6-alpha1.jar",
           "url": "gk1hcore-common-1.21.1-21.1.1.6-alpha1.jar",
-          "size": 11743,
-          "sha512": "2ca05e9e39236669f10d05c34cfa61879f3092be92d57ef7de1ee13631b8dc3838216f90e06482d70bc1337f3852e60bd02120f6e19daa2f9088690342d42739",
-          "sha256": "b07b69796a41fd8fccea81fada461fc75ad10ae2b2f80535adc9bf978d036b98",
-          "sha1": "53839dd53c36b6effaf05d260750f4ecd6aa5e5b",
-          "md5": "28fd167b2208a9b090e28b225ff88a52"
+          "size": 11769,
+          "sha512": "c9dac3c51279878c95181b11c2ec7a0982eec0361c9624c75213d1b8df985381267c807e1db9ced1339e02b070c9c633146c42734aad9776f7bb2e6b6fdec6ae",
+          "sha256": "487af09b56c5ff6b1a38463a7daba8e0c9bd876c7c4d0b9075b8d90722b8288d",
+          "sha1": "bda6d6586d1071c4efb74dac39cbed87808bc347",
+          "md5": "8cd778ef2fc4c6bfc78cb9d05fbce9cf"
         }
       ]
     },
@@ -86,11 +86,11 @@
         {
           "name": "gk1hcore-common-1.21.1-21.1.1.6-alpha1-sources.jar",
           "url": "gk1hcore-common-1.21.1-21.1.1.6-alpha1-sources.jar",
-          "size": 7799,
-          "sha512": "bb4a759509bff75b338d82aaaa9c09609adc1b20ec1cf46210ef2eba1ccc27109a6d84c004675a5baaf9f33e71dcb5f27850edcf0ab8d58f252abec2ee1fe2d5",
-          "sha256": "6bc6e44e96cdbd0cf99618a1d4d42872d2fa16cd625e5e6c13d67814132887d9",
-          "sha1": "53010b935e0ee68f43e033d27f1d19336245ce30",
-          "md5": "3de8b143a5fb462574f8d1e38e68dbdf"
+          "size": 7816,
+          "sha512": "3e299cc0744a665ae6fa98efd87b38690c9737a55785ff92470c128b69d1bd47c344322f5563cf0d6628c9f752da6ade754541d11818d9be122909a76577cecc",
+          "sha256": "626978a82b77aeca9f258b78a627343abc3a09aa576112d57318f7007b4c694d",
+          "sha1": "d174ff98d7141812996f1ea756df9c82fd53edd2",
+          "md5": "e2d0c43e77a95b9355ef2cb6326e05de"
         }
       ]
     },
@@ -106,11 +106,11 @@
         {
           "name": "gk1hcore-common-1.21.1-21.1.1.6-alpha1-javadoc.jar",
           "url": "gk1hcore-common-1.21.1-21.1.1.6-alpha1-javadoc.jar",
-          "size": 114531,
-          "sha512": "b0f0601d986580e9539af1ed51c41220f876d49d663a39c7d44fa3985313a2b7bdbae9d62eb1e03aed3e330dd7bb3567061e93160c9d57c2cda5667399450a81",
-          "sha256": "ae758de83877ff3edfe3962ccf39cb25d54923659583d7ea8cb05f478c9e7574",
-          "sha1": "b8b824e627acbd1dac47b59cbd94b50f541fc798",
-          "md5": "7de352ed2a735b4e151b42a94ab13d26"
+          "size": 114617,
+          "sha512": "695b2ca57989c4586acede0e430a4732a9c095d6b717cf0fc6fef29310246a2fec62ec2df1575860628b30d0bef744bb5490a742b5094e4d0377a35a6eb0bf51",
+          "sha256": "b73259778d5f02981de04e8380a7fde1e56720f0b7fe45799689c33006f04ecc",
+          "sha1": "f0ad8578bcd5a058dbdc1293ed4befcd2912db88",
+          "md5": "4a26b237c264b6471e87e73ba1ea2e82"
         }
       ]
     }

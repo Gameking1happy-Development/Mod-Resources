@@ -36,11 +36,11 @@
         {
           "name": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1.jar",
           "url": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1.jar",
-          "size": 17440,
-          "sha512": "0786a4e80d3f46e0762f555f065056b92cdbf477738cf0ac733ca78de396b829513be86c6cd084bff1694e3f00d9a50d6d8d0707510d8359a2b66e6180e3ec83",
-          "sha256": "c40664c60bf616696996558df43501952fde2541e621583f3a5677f477ac4c5c",
-          "sha1": "752f17ebab4c663173a48a27a9cd642c1cb24901",
-          "md5": "74411ac57af7205b1697f7e5b11302de"
+          "size": 17489,
+          "sha512": "7dccfb275a275e516593fb85e2776e7f3bbb9cab3416c85169e4dc1f4c741ff1953a94c59940a444c2996d82f0a28bb9475ea60d7a3edcb90cfa0f989a05d42c",
+          "sha256": "79eef1aa6985e8c1bea6df3a7f0a8d7df82ab1f983ccbfb716e5723a70ecd4c9",
+          "sha1": "36ba4440924b1cc7f87029d7e68660657f743d33",
+          "md5": "ff3866deacf018368c21b64fc41b237c"
         }
       ]
     },
@@ -87,11 +87,11 @@
         {
           "name": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1.jar",
           "url": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1.jar",
-          "size": 17440,
-          "sha512": "0786a4e80d3f46e0762f555f065056b92cdbf477738cf0ac733ca78de396b829513be86c6cd084bff1694e3f00d9a50d6d8d0707510d8359a2b66e6180e3ec83",
-          "sha256": "c40664c60bf616696996558df43501952fde2541e621583f3a5677f477ac4c5c",
-          "sha1": "752f17ebab4c663173a48a27a9cd642c1cb24901",
-          "md5": "74411ac57af7205b1697f7e5b11302de"
+          "size": 17489,
+          "sha512": "7dccfb275a275e516593fb85e2776e7f3bbb9cab3416c85169e4dc1f4c741ff1953a94c59940a444c2996d82f0a28bb9475ea60d7a3edcb90cfa0f989a05d42c",
+          "sha256": "79eef1aa6985e8c1bea6df3a7f0a8d7df82ab1f983ccbfb716e5723a70ecd4c9",
+          "sha1": "36ba4440924b1cc7f87029d7e68660657f743d33",
+          "md5": "ff3866deacf018368c21b64fc41b237c"
         }
       ]
     },
@@ -107,11 +107,11 @@
         {
           "name": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1-sources.jar",
           "url": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1-sources.jar",
-          "size": 11719,
-          "sha512": "339eaa2ad020a4d0c759c73a8e3013df4c8bdb33509ffe07ad7f57a63e69f475efb4a11035b50126cbe8d8a9470cb1803f77621f13424e125203828fae2f90cc",
-          "sha256": "24b00a640317847970c7cedd7a371a6d7e0a6b57c2aa27ba8186470630ea7379",
-          "sha1": "129fcd8fc5876e8918b019e72bfb48fb3b5dad2e",
-          "md5": "a50a95922b46cdd81888de7ba2a022b4"
+          "size": 11752,
+          "sha512": "ed90f0def5533fd50276e9fe824c700168802abb10398db8295d2d943220bb19a5595e21d99f38a1984aa6b76aea34154e3c46b4639810a20958b9d842c06202",
+          "sha256": "e4cc268bc5139d219ae83292413a044022b5f017a57956402b783153471fbc3b",
+          "sha1": "34f7b2440b83d9f2f5c2a2eb171c3ed9afbaf826",
+          "md5": "d80fe0117ae3638333cccb65ffe3004d"
         }
       ]
     },
@@ -127,11 +127,11 @@
         {
           "name": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1-javadoc.jar",
           "url": "gk1hcore-fabric-1.21.1-21.1.1.6-alpha1-javadoc.jar",
-          "size": 123776,
-          "sha512": "4d7528fcee5d6fde1ea9d7c62f464f174e0cdb3e3b24f50a783c5d35253c7787fcd4e8cb23f223cdbabb471440efd3ac3d1cb4c0aaa3451135b8660726a8f21d",
-          "sha256": "8d31d64077a1cdd520108f8d85b665da95c846ce2fe628bf1167803a56a673df",
-          "sha1": "519075b302545b24e2ddc345ea70eb3f48223120",
-          "md5": "80ba6b11b9fb4139ce7ab77697171901"
+          "size": 123847,
+          "sha512": "17c807ba9d7ccffc2183bd77a8337347c1ccb731b0c8220bf19389839bcaf7502078260b75f4c1337973c9f965fb951bb93a9fbd6eddd900d49666413c21b043",
+          "sha256": "54f05a0bc1fba5aa55c48ea47d7a32773c5d65c95b8212a529126533e947dda8",
+          "sha1": "895af917f0cd3dba0eb97f59575715437f269aeb",
+          "md5": "e55a712360ffff78f550db41f0949cb6"
         }
       ]
     }
