@@ -27,11 +27,11 @@
         {
           "name": "gk1hcore-neoforge-1.21.1-21.1.1.8.jar",
           "url": "gk1hcore-neoforge-1.21.1-21.1.1.8.jar",
-          "size": 22066,
-          "sha512": "ddabfbd91fb0c97456b8325e4c8c0ea348edb46acb5ffa74e4f7b737bf6dee7792c222a5fa3c4050474a3bc7ceb1ac265978feec3db94e853bb35f7e922d914e",
-          "sha256": "28d3a230de92c73dd1a3450a677c9d7f2ad50fe399e37750c014b3bed52a1c5d",
-          "sha1": "3e72f6ed0fc98ffa930615844ac86a4d17e287bc",
-          "md5": "4c878e7edd8221e1817283622bbd4c8b"
+          "size": 22071,
+          "sha512": "5005f90a3f6f16e6cdf080205bab4260726caf0a6581c3464cd016cff4c191080f5514215ae92bd833913705d6e3091930cdcebd7c6e06b1a9d8a00d3ad29509",
+          "sha256": "3d2dc225ab0bcc99cff20760c80a61cada223ad7d2d65542b0023dc41800e2ce",
+          "sha1": "1a752ee95fabbeeb3b99a13b5f9b72992938a97a",
+          "md5": "77ae1c6207aacbbb7224bc293369a40a"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "gk1hcore-neoforge-1.21.1-21.1.1.8.jar",
           "url": "gk1hcore-neoforge-1.21.1-21.1.1.8.jar",
-          "size": 22066,
-          "sha512": "ddabfbd91fb0c97456b8325e4c8c0ea348edb46acb5ffa74e4f7b737bf6dee7792c222a5fa3c4050474a3bc7ceb1ac265978feec3db94e853bb35f7e922d914e",
-          "sha256": "28d3a230de92c73dd1a3450a677c9d7f2ad50fe399e37750c014b3bed52a1c5d",
-          "sha1": "3e72f6ed0fc98ffa930615844ac86a4d17e287bc",
-          "md5": "4c878e7edd8221e1817283622bbd4c8b"
+          "size": 22071,
+          "sha512": "5005f90a3f6f16e6cdf080205bab4260726caf0a6581c3464cd016cff4c191080f5514215ae92bd833913705d6e3091930cdcebd7c6e06b1a9d8a00d3ad29509",
+          "sha256": "3d2dc225ab0bcc99cff20760c80a61cada223ad7d2d65542b0023dc41800e2ce",
+          "sha1": "1a752ee95fabbeeb3b99a13b5f9b72992938a97a",
+          "md5": "77ae1c6207aacbbb7224bc293369a40a"
         }
       ]
     },
