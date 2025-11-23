@@ -27,11 +27,11 @@
         {
           "name": "gk1hcore-neoforge-1.21.1-21.1.2.0.jar",
           "url": "gk1hcore-neoforge-1.21.1-21.1.2.0.jar",
-          "size": 23481,
-          "sha512": "d618c7d4fb52a3d6a1b16b69d2780266c8f6a2d2ecf9be2f8c2e3efd44b0a6ba90409083b4b418d8476db4734a7b5e52afdd4bace43434252b99b4016e105150",
-          "sha256": "2423e80fde1a4be4739d331a401c864beed93badf6753b455a16adc3d27b2afd",
-          "sha1": "27f3e44fadba78de3c2679ba40b64ceb5224d2b7",
-          "md5": "36b6cb61236850bc48fa2f2d877a38f5"
+          "size": 23482,
+          "sha512": "77cd1ccd7c77e6115061b3b9fd5ccdf562d76f06406a48e166e2e62ca5318ea412d622522a325fe521addb54157bb390f56c36d902ca8ddbca39f72f0f3b7b22",
+          "sha256": "78307a6e71e18ab2008b2768b93ca0e8495a802b77e27f67041487c10f800ca7",
+          "sha1": "870810598009328b28fe1fb00ed33e07d44c0d63",
+          "md5": "126734e3582e7fcbaeca7efebe8c9e7a"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "gk1hcore-neoforge-1.21.1-21.1.2.0.jar",
           "url": "gk1hcore-neoforge-1.21.1-21.1.2.0.jar",
-          "size": 23481,
-          "sha512": "d618c7d4fb52a3d6a1b16b69d2780266c8f6a2d2ecf9be2f8c2e3efd44b0a6ba90409083b4b418d8476db4734a7b5e52afdd4bace43434252b99b4016e105150",
-          "sha256": "2423e80fde1a4be4739d331a401c864beed93badf6753b455a16adc3d27b2afd",
-          "sha1": "27f3e44fadba78de3c2679ba40b64ceb5224d2b7",
-          "md5": "36b6cb61236850bc48fa2f2d877a38f5"
+          "size": 23482,
+          "sha512": "77cd1ccd7c77e6115061b3b9fd5ccdf562d76f06406a48e166e2e62ca5318ea412d622522a325fe521addb54157bb390f56c36d902ca8ddbca39f72f0f3b7b22",
+          "sha256": "78307a6e71e18ab2008b2768b93ca0e8495a802b77e27f67041487c10f800ca7",
+          "sha1": "870810598009328b28fe1fb00ed33e07d44c0d63",
+          "md5": "126734e3582e7fcbaeca7efebe8c9e7a"
         }
       ]
     },
@@ -68,11 +68,11 @@
         {
           "name": "gk1hcore-neoforge-1.21.1-21.1.2.0-sources.jar",
           "url": "gk1hcore-neoforge-1.21.1-21.1.2.0-sources.jar",
-          "size": 17459,
-          "sha512": "615f628969863c08c719515cfdcf8801dafb74b4aad9c90e695674d2836cbf4cd68e44693d96e37bfbdbb79111d63f4dab4cd37c16fe820f068fda22df33edf6",
-          "sha256": "fbf9e33e7191c4d22b41989fd555d9e9b1390160ab4e42c15aeaba215a2f1cd8",
-          "sha1": "000e0ce14c8d66275edbf834b562a6740a2fee3d",
-          "md5": "5011ce973dd3477d4fc6046839536c2c"
+          "size": 17460,
+          "sha512": "28ec69cf7c063c0a2f2100eb1d026203e94dc247a4c2de095827279b1c9ed2c281008486645c7c76947685d1fd7d2192d71f13a9a364befde575c860d5ce8c4b",
+          "sha256": "e0a519738eb636d785b2600fc306eb7e7d397d1a35f6c61ba8e7d38b78a53006",
+          "sha1": "d990df7fd00ead35a63725965a5a22fa464156f8",
+          "md5": "16b227943cc1b6f4eb34878b57396804"
         }
       ]
     },
