@@ -3,38 +3,38 @@
   <groupId>io.github.gameking1happy.gk1htags</groupId>
   <artifactId>gk1htags-neoforge-1.21.1</artifactId>
   <versioning>
-    <lastUpdated>20251124173311</lastUpdated>
+    <lastUpdated>20251124181613</lastUpdated>
     <snapshot>
-      <timestamp>20251124.173311</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20251124.181613</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>21.1.1.0-20251124.173311-2</value>
-        <updated>20251124173311</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>21.1.1.0-20251124.173311-2</value>
-        <updated>20251124173311</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>21.1.1.0-20251124.173311-2</value>
-        <updated>20251124173311</updated>
+        <value>21.1.1.0-20251124.181613-3</value>
+        <updated>20251124181613</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>21.1.1.0-20251124.173311-2</value>
-        <updated>20251124173311</updated>
+        <value>21.1.1.0-20251124.181613-3</value>
+        <updated>20251124181613</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>21.1.1.0-20251124.173311-2</value>
-        <updated>20251124173311</updated>
+        <value>21.1.1.0-20251124.181613-3</value>
+        <updated>20251124181613</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>21.1.1.0-20251124.181613-3</value>
+        <updated>20251124181613</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>21.1.1.0-20251124.181613-3</value>
+        <updated>20251124181613</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

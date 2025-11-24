@@ -6,13 +6,6 @@
     <latest>21.1.2.2-SNAPSHOT</latest>
     <release>21.1.2.1</release>
     <versions>
-      <version>21.1.1.4</version>
-      <version>21.1.1.5</version>
-      <version>21.1.1.6</version>
-      <version>21.1.1.7</version>
-      <version>21.1.1.8</version>
-      <version>21.1.1.9</version>
-      <version>21.1.2.0</version>
       <version>21.1.2.1</version>
       <version>21.1.2.2-SNAPSHOT</version>
     </versions>
