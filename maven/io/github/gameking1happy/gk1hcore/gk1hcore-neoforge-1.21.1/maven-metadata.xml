@@ -3,7 +3,7 @@
   <groupId>io.github.gameking1happy.gk1hcore</groupId>
   <artifactId>gk1hcore-neoforge-1.21.1</artifactId>
   <versioning>
-    <latest>21.1.2.1</latest>
+    <latest>21.1.2.2-SNAPSHOT</latest>
     <release>21.1.2.1</release>
     <versions>
       <version>21.1.1.4</version>
@@ -14,7 +14,8 @@
       <version>21.1.1.9</version>
       <version>21.1.2.0</version>
       <version>21.1.2.1</version>
+      <version>21.1.2.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20251124001934</lastUpdated>
+    <lastUpdated>20251124005307</lastUpdated>
   </versioning>
 </metadata>
