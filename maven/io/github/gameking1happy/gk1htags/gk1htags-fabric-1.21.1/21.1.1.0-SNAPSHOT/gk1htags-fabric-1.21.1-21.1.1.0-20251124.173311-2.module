@@ -1,0 +1,187 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1htags",
+    "module": "gk1htags-fabric-1.21.1",
+    "version": "21.1.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.2-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1htags-fabric-1.21.1-21.1.1.0-SNAPSHOT.jar",
+          "url": "gk1htags-fabric-1.21.1-21.1.1.0-SNAPSHOT.jar",
+          "size": 24197,
+          "sha512": "c1cb1f0ccfd739835932a0847048947c7d55d173ab8d88c40f99863baa4355e3d4698d97840c1c38fc8a4f40d80ad8846166287e99b210b39cc5100395cd6a62",
+          "sha256": "ebf0911748c74c7175571102ccd6b8484e7f9053db02f35f53a019d11b17ebf0",
+          "sha1": "05df50bccaaf8b2c76dd36b01acc195a5a9c39b2",
+          "md5": "ef95443e132e6c635da10dc4eaae38e2"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags",
+          "version": "21.1.1.0-SNAPSHOT"
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags-fabric-1.21.1",
+          "version": "21.1.1.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.0"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.7+1.21.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1htags-fabric-1.21.1-21.1.1.0-SNAPSHOT.jar",
+          "url": "gk1htags-fabric-1.21.1-21.1.1.0-SNAPSHOT.jar",
+          "size": 24197,
+          "sha512": "c1cb1f0ccfd739835932a0847048947c7d55d173ab8d88c40f99863baa4355e3d4698d97840c1c38fc8a4f40d80ad8846166287e99b210b39cc5100395cd6a62",
+          "sha256": "ebf0911748c74c7175571102ccd6b8484e7f9053db02f35f53a019d11b17ebf0",
+          "sha1": "05df50bccaaf8b2c76dd36b01acc195a5a9c39b2",
+          "md5": "ef95443e132e6c635da10dc4eaae38e2"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags",
+          "version": "21.1.1.0-SNAPSHOT"
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags-fabric-1.21.1",
+          "version": "21.1.1.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1htags-fabric-1.21.1-21.1.1.0-SNAPSHOT-sources.jar",
+          "url": "gk1htags-fabric-1.21.1-21.1.1.0-SNAPSHOT-sources.jar",
+          "size": 21019,
+          "sha512": "87c8bc0aefc3ec135bf00f9db23aa2bfdd8f97db0e064a7607710c0c7f03a2440cc51ebc047e5420d80010384d1b9a16f308b39b68f3f2dd675f743fbd8e9839",
+          "sha256": "c5a3163825ddf7260d6c64a53d71b5d028d520884983bd1baa309827089b976f",
+          "sha1": "1814386030387b6ab9e7de187a50e78b3546845f",
+          "md5": "2392904eedf73a52c8f9b3aa88134a08"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags",
+          "version": "21.1.1.0-SNAPSHOT"
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags-fabric-1.21.1",
+          "version": "21.1.1.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1htags-fabric-1.21.1-21.1.1.0-SNAPSHOT-javadoc.jar",
+          "url": "gk1htags-fabric-1.21.1-21.1.1.0-SNAPSHOT-javadoc.jar",
+          "size": 121717,
+          "sha512": "5a59b8bc20900daf96f45e8ee7830c3f2d2ee6f93bde2b820716a1ff94a194ce3cc161592691c19ad949efdb246c737883327b01b082ebf1cc48d04a35c98ffd",
+          "sha256": "b63b047298ac7465d0866339e5a9a9dce66c729f3afb4ce731c9827f3594a9a6",
+          "sha1": "9b9b6b0539e62a2324468a953a317fedb2f65f72",
+          "md5": "4b64de3e04b129232abf99ede9d5e1da"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags",
+          "version": "21.1.1.0-SNAPSHOT"
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags-fabric-1.21.1",
+          "version": "21.1.1.0-SNAPSHOT"
+        }
+      ]
+    }
+  ]
+}

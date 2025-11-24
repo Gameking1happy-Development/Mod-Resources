@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1htags",
+    "module": "gk1htags-common-1.21.1",
+    "version": "21.1.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.2-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1htags-common-1.21.1-21.1.1.0-SNAPSHOT.jar",
+          "url": "gk1htags-common-1.21.1-21.1.1.0-SNAPSHOT.jar",
+          "size": 19450,
+          "sha512": "1d278a45b186f0a951048fc93e40090d76ce91cb7359deab731b0a1616c793e75a5b3d549c684a3b3a1a450863bb10c04e896de954db88d656baa6234c9b7d5f",
+          "sha256": "1cf6bfb516fac62874e3410443a22fd1abc90425e318849f60e6cdccfb24e612",
+          "sha1": "9c6e9093fbd9b26e2c73d5028f3b0e0fd490b938",
+          "md5": "d4463e7b09cff356ce23d4aae0e481be"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags",
+          "version": "21.1.1.0-SNAPSHOT"
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags-common-1.21.1",
+          "version": "21.1.1.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.2-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1htags-common-1.21.1-21.1.1.0-SNAPSHOT.jar",
+          "url": "gk1htags-common-1.21.1-21.1.1.0-SNAPSHOT.jar",
+          "size": 19450,
+          "sha512": "1d278a45b186f0a951048fc93e40090d76ce91cb7359deab731b0a1616c793e75a5b3d549c684a3b3a1a450863bb10c04e896de954db88d656baa6234c9b7d5f",
+          "sha256": "1cf6bfb516fac62874e3410443a22fd1abc90425e318849f60e6cdccfb24e612",
+          "sha1": "9c6e9093fbd9b26e2c73d5028f3b0e0fd490b938",
+          "md5": "d4463e7b09cff356ce23d4aae0e481be"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags",
+          "version": "21.1.1.0-SNAPSHOT"
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags-common-1.21.1",
+          "version": "21.1.1.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1htags-common-1.21.1-21.1.1.0-SNAPSHOT-sources.jar",
+          "url": "gk1htags-common-1.21.1-21.1.1.0-SNAPSHOT-sources.jar",
+          "size": 17345,
+          "sha512": "28f7ec855d3308078e61898d50d30f0a5fd8928e70b53b57da16939ae0ad1eea633ffe507e082508c73b467a151d3f8fb7701d77867ffeac0cadb2a06bb00efe",
+          "sha256": "32a976e4d2fda3cb649e0197b67c6cb4d33aa0b378b0a8852b668526eb21fc40",
+          "sha1": "32053ce8bcdaa4f05a95757df1c6954217a8e334",
+          "md5": "6ad9d7e524bbb5885caaa923d7a9b41a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags",
+          "version": "21.1.1.0-SNAPSHOT"
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags-common-1.21.1",
+          "version": "21.1.1.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1htags-common-1.21.1-21.1.1.0-SNAPSHOT-javadoc.jar",
+          "url": "gk1htags-common-1.21.1-21.1.1.0-SNAPSHOT-javadoc.jar",
+          "size": 113342,
+          "sha512": "2f589ccd70e23ccaf770f8d2e8003d6dbcda051353850c1bb007c417dba2edb0d4804e4e0253d4d4bf18e2dfb3aa59d4417daae098afaf9fe74d30a91f1b8342",
+          "sha256": "45577ad5db6f2a33ca5a27d63da5d90e4417f82205845c0601f9699888e3b319",
+          "sha1": "424b21c02bcb0c648d65f3e6ce178fc0f925193f",
+          "md5": "f63d09f013d42eade8136c9fb1e73c25"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags",
+          "version": "21.1.1.0-SNAPSHOT"
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags-common-1.21.1",
+          "version": "21.1.1.0-SNAPSHOT"
+        }
+      ]
+    }
+  ]
+}

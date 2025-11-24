@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1htags",
+    "module": "gk1htags-neoforge-1.21.1",
+    "version": "21.1.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.2-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1htags-neoforge-1.21.1-21.1.1.0-SNAPSHOT.jar",
+          "url": "gk1htags-neoforge-1.21.1-21.1.1.0-SNAPSHOT.jar",
+          "size": 38773,
+          "sha512": "6049328c3222924cc3d6a7eae426677445c06b68b623bc45ce5b593f48e72a1c5471daca5b261a9192e3ec44742d89979b2d52d1df0d302cc2dc6ac40525e7fe",
+          "sha256": "6fe73a521586a063b20d4e06f488ef27aa6436b760139a99925e091fdb464330",
+          "sha1": "3e964956b43322cec066a0752a4ace1bc70f308b",
+          "md5": "8df345abc28e4d91b5401f26da7f294f"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags-neoforge-1.21.1",
+          "version": "21.1.1.0-SNAPSHOT"
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags",
+          "version": "21.1.1.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.2-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1htags-neoforge-1.21.1-21.1.1.0-SNAPSHOT.jar",
+          "url": "gk1htags-neoforge-1.21.1-21.1.1.0-SNAPSHOT.jar",
+          "size": 38773,
+          "sha512": "6049328c3222924cc3d6a7eae426677445c06b68b623bc45ce5b593f48e72a1c5471daca5b261a9192e3ec44742d89979b2d52d1df0d302cc2dc6ac40525e7fe",
+          "sha256": "6fe73a521586a063b20d4e06f488ef27aa6436b760139a99925e091fdb464330",
+          "sha1": "3e964956b43322cec066a0752a4ace1bc70f308b",
+          "md5": "8df345abc28e4d91b5401f26da7f294f"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags-neoforge-1.21.1",
+          "version": "21.1.1.0-SNAPSHOT"
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags",
+          "version": "21.1.1.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1htags-neoforge-1.21.1-21.1.1.0-SNAPSHOT-sources.jar",
+          "url": "gk1htags-neoforge-1.21.1-21.1.1.0-SNAPSHOT-sources.jar",
+          "size": 29077,
+          "sha512": "8f224bd253e19052fa3110d8c35d8a03e3660e4cdc0105201705f7afdc5b47aebfbc75e82e19206e0aefba2d9973778a060dfd488036a87fb3a4c9ca7f3913fa",
+          "sha256": "c082fcbc2dc2e3531a1450186b21de79d8c10a297a73a5832f463b3fb711da19",
+          "sha1": "da809eae4272a2a8aa979c1283b2098b12135c7c",
+          "md5": "ad3a15563f115d78ab11ab73bef947ab"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags-neoforge-1.21.1",
+          "version": "21.1.1.0-SNAPSHOT"
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags",
+          "version": "21.1.1.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1htags-neoforge-1.21.1-21.1.1.0-SNAPSHOT-javadoc.jar",
+          "url": "gk1htags-neoforge-1.21.1-21.1.1.0-SNAPSHOT-javadoc.jar",
+          "size": 176280,
+          "sha512": "a239481985707a858be2b2df6ae6c35e827a7f28c112ef954d7d830d40ca5b17fa69c79e9a61f53294ba19c7f15199baf4ac232bf43adac49ee5e88fbb2ab757",
+          "sha256": "553bb13dd4b82b74cefb9bc044fb0f5fbdd09556bdeecc35b4bd332cef8d27c0",
+          "sha1": "fb63ffb0ef384549768c61581e8193ca54f88274",
+          "md5": "f28d122f6162851be5f7432eedf43523"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags-neoforge-1.21.1",
+          "version": "21.1.1.0-SNAPSHOT"
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "name": "gk1htags",
+          "version": "21.1.1.0-SNAPSHOT"
+        }
+      ]
+    }
+  ]
+}
