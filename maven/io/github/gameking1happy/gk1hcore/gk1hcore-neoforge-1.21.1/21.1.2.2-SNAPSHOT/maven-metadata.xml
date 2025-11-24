@@ -3,44 +3,44 @@
   <groupId>io.github.gameking1happy.gk1hcore</groupId>
   <artifactId>gk1hcore-neoforge-1.21.1</artifactId>
   <versioning>
-    <lastUpdated>20251124005235</lastUpdated>
+    <lastUpdated>20251124010857</lastUpdated>
     <snapshot>
-      <timestamp>20251124.005235</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20251124.010857</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
+        <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>21.1.2.2-20251124.005235-2</value>
-        <updated>20251124005235</updated>
+        <value>21.1.2.2-20251124.010857-3</value>
+        <updated>20251124010857</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>accesstransformer</classifier>
         <extension>cfg</extension>
-        <value>21.1.2.2-20251124.005235-2</value>
-        <updated>20251124005235</updated>
+        <value>21.1.2.2-20251124.010857-3</value>
+        <updated>20251124010857</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>21.1.2.2-20251124.010857-3</value>
+        <updated>20251124010857</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>21.1.2.2-20251124.010857-3</value>
+        <updated>20251124010857</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>21.1.2.2-20251124.010857-3</value>
+        <updated>20251124010857</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>21.1.2.2-20251124.005235-2</value>
-        <updated>20251124005235</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>21.1.2.2-20251124.005235-2</value>
-        <updated>20251124005235</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>21.1.2.2-20251124.005235-2</value>
-        <updated>20251124005235</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>21.1.2.2-20251124.005235-2</value>
-        <updated>20251124005235</updated>
+        <value>21.1.2.2-20251124.010857-3</value>
+        <updated>20251124010857</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
