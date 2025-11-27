@@ -3,38 +3,38 @@
   <groupId>io.github.gameking1happy.gk1htags</groupId>
   <artifactId>gk1htags-fabric-1.21.1</artifactId>
   <versioning>
-    <lastUpdated>20251126161302</lastUpdated>
+    <lastUpdated>20251127022929</lastUpdated>
     <snapshot>
-      <timestamp>20251126.161302</timestamp>
-      <buildNumber>5</buildNumber>
+      <timestamp>20251127.022929</timestamp>
+      <buildNumber>6</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>21.1.1.0-20251126.161302-5</value>
-        <updated>20251126161302</updated>
-      </snapshotVersion>
-      <snapshotVersion>
+        <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>21.1.1.0-20251126.161302-5</value>
-        <updated>20251126161302</updated>
+        <value>21.1.1.0-20251127.022929-6</value>
+        <updated>20251127022929</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>21.1.1.0-20251126.161302-5</value>
-        <updated>20251126161302</updated>
+        <value>21.1.1.0-20251127.022929-6</value>
+        <updated>20251127022929</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>21.1.1.0-20251127.022929-6</value>
+        <updated>20251127022929</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>21.1.1.0-20251127.022929-6</value>
+        <updated>20251127022929</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>21.1.1.0-20251126.161302-5</value>
-        <updated>20251126161302</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>21.1.1.0-20251126.161302-5</value>
-        <updated>20251126161302</updated>
+        <value>21.1.1.0-20251127.022929-6</value>
+        <updated>20251127022929</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
