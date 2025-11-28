@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1hcore",
+    "module": "gk1hcore-neoforge-1.21.1",
+    "version": "21.1.2.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gk1hcore-neoforge-1.21.1-21.1.2.2-SNAPSHOT.jar",
+          "url": "gk1hcore-neoforge-1.21.1-21.1.2.2-SNAPSHOT.jar",
+          "size": 24828,
+          "sha512": "da2f039ea98532b15fe38031b88bf9dd8e6f6e1e065600b8f7ec312cb449e7b3f7aca66a5fa2e21c9b89ea86ae386d3fb01b7b80cb6108d373df4c47f7a4e00c",
+          "sha256": "e29215ddfbbba76ddaa0ff85f9132712ac1d0adb218ec7656d8d2e36ad6eebbe",
+          "sha1": "d6ae528fe001edc180411171d4bb82fac78e3965",
+          "md5": "28eec57cbf8b4e62708ddd350a30d4d5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hcore-neoforge-1.21.1-21.1.2.2-SNAPSHOT.jar",
+          "url": "gk1hcore-neoforge-1.21.1-21.1.2.2-SNAPSHOT.jar",
+          "size": 24828,
+          "sha512": "da2f039ea98532b15fe38031b88bf9dd8e6f6e1e065600b8f7ec312cb449e7b3f7aca66a5fa2e21c9b89ea86ae386d3fb01b7b80cb6108d373df4c47f7a4e00c",
+          "sha256": "e29215ddfbbba76ddaa0ff85f9132712ac1d0adb218ec7656d8d2e36ad6eebbe",
+          "sha1": "d6ae528fe001edc180411171d4bb82fac78e3965",
+          "md5": "28eec57cbf8b4e62708ddd350a30d4d5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hcore-neoforge-1.21.1-21.1.2.2-SNAPSHOT-sources.jar",
+          "url": "gk1hcore-neoforge-1.21.1-21.1.2.2-SNAPSHOT-sources.jar",
+          "size": 18410,
+          "sha512": "b3d2b7c782f9c870c9aaadf6a3b46c3d84a215797b8694e4f49ed786f7c68dad87bea701b04b50346eeef0afe4206fdbccec1e1533c5e8775316ea4e8fdd5abb",
+          "sha256": "ebc38f6ab02c0a8d9a4895e4a92faa883a6a7452c0dbd8317760224e599a34f9",
+          "sha1": "85ab40f9680b1e1e132d1fb7271baa08ee4a940b",
+          "md5": "1f4e1495427b3431f5c2e417964d69ee"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hcore-neoforge-1.21.1-21.1.2.2-SNAPSHOT-javadoc.jar",
+          "url": "gk1hcore-neoforge-1.21.1-21.1.2.2-SNAPSHOT-javadoc.jar",
+          "size": 160760,
+          "sha512": "67759245fa3a038a50f426fc1045b1600fe40c90f5d735abce8a9bcc46e2339d48a6f5bae88cacee9578320ab178296d63f796ceb6ab2faf67b21c5f4b2521e6",
+          "sha256": "4abd6983032e34800ca5e5b292d4e29bd13a86e551a180cacfc7353d5ebef15b",
+          "sha1": "c86c9b1f816363d9a6ac8ccd33c26223b1c467c6",
+          "md5": "a9932288d7670b6a8dfb54aa23e90fe4"
+        }
+      ]
+    },
+    {
+      "name": "accessTransformersElements",
+      "attributes": {
+        "org.gradle.category": "accesstransformer"
+      },
+      "files": [
+        {
+          "name": "gk1hcore-neoforge-1.21.1-21.1.2.2-SNAPSHOT-accesstransformer.cfg",
+          "url": "gk1hcore-neoforge-1.21.1-21.1.2.2-SNAPSHOT-accesstransformer.cfg",
+          "size": 78,
+          "sha512": "b5fd5d161d7ffbffff9376a3a8f54403bf912b280fa9e3a8112ca57ec1cfee9e61cbcd86e6a7c712c913c8baa024dfaa5c9b3f9bb5a62b5dd2e9287129c2686c",
+          "sha256": "02a7ee6b9212debbab05bfe5b7e1325e239fd7abd569d318a0391153040c3475",
+          "sha1": "284ca492085fea4bd951f4bbff99326bc89d742e",
+          "md5": "26ff850e5bd778d05d3b434990153748"
+        }
+      ]
+    }
+  ]
+}
