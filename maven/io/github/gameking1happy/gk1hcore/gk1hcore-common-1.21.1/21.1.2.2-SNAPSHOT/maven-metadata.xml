@@ -3,38 +3,38 @@
   <groupId>io.github.gameking1happy.gk1hcore</groupId>
   <artifactId>gk1hcore-common-1.21.1</artifactId>
   <versioning>
-    <lastUpdated>20251127232831</lastUpdated>
+    <lastUpdated>20251128011513</lastUpdated>
     <snapshot>
-      <timestamp>20251127.232831</timestamp>
-      <buildNumber>6</buildNumber>
+      <timestamp>20251128.011513</timestamp>
+      <buildNumber>7</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>21.1.2.2-20251127.232831-6</value>
-        <updated>20251127232831</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>21.1.2.2-20251127.232831-6</value>
-        <updated>20251127232831</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>21.1.2.2-20251127.232831-6</value>
-        <updated>20251127232831</updated>
+        <value>21.1.2.2-20251128.011513-7</value>
+        <updated>20251128011513</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>21.1.2.2-20251127.232831-6</value>
-        <updated>20251127232831</updated>
+        <value>21.1.2.2-20251128.011513-7</value>
+        <updated>20251128011513</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>21.1.2.2-20251127.232831-6</value>
-        <updated>20251127232831</updated>
+        <value>21.1.2.2-20251128.011513-7</value>
+        <updated>20251128011513</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>21.1.2.2-20251128.011513-7</value>
+        <updated>20251128011513</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>21.1.2.2-20251128.011513-7</value>
+        <updated>20251128011513</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
