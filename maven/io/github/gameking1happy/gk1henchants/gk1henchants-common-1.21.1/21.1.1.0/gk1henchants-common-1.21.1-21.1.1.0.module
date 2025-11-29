@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1henchants",
+    "module": "gk1henchants-common-1.21.1",
+    "version": "21.1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-common-1.21.1",
+          "version": {
+            "requires": "21.1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1henchants-common-1.21.1-21.1.1.0.jar",
+          "url": "gk1henchants-common-1.21.1-21.1.1.0.jar",
+          "size": 47013,
+          "sha512": "8f3d04e14b067b1347bcef160d79393c781d59ced15ef09d1f3d8d9df5f12044b838949fd7977c943b67a63ae390639ee49ce078d30e5ef2e45cea01010aa016",
+          "sha256": "60625a04164d58a26a3212c28d9f28c5a7a3f241d2bca330ac26dab1219577fc",
+          "sha1": "e38a3323180351016cb46ba2f257fa2ab2e7d054",
+          "md5": "d951fa6dba320e49b2765cfd0969bda9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21+neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "universal-enchants",
+          "version": {
+            "requires": "v21.1.6-1.21.1-NeoForge"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-common-1.21.1",
+          "version": {
+            "requires": "21.1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1henchants-common-1.21.1-21.1.1.0.jar",
+          "url": "gk1henchants-common-1.21.1-21.1.1.0.jar",
+          "size": 47013,
+          "sha512": "8f3d04e14b067b1347bcef160d79393c781d59ced15ef09d1f3d8d9df5f12044b838949fd7977c943b67a63ae390639ee49ce078d30e5ef2e45cea01010aa016",
+          "sha256": "60625a04164d58a26a3212c28d9f28c5a7a3f241d2bca330ac26dab1219577fc",
+          "sha1": "e38a3323180351016cb46ba2f257fa2ab2e7d054",
+          "md5": "d951fa6dba320e49b2765cfd0969bda9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1henchants-common-1.21.1-21.1.1.0-sources.jar",
+          "url": "gk1henchants-common-1.21.1-21.1.1.0-sources.jar",
+          "size": 19400,
+          "sha512": "b7d6e8d565c68ef4f782677a2e4a063f3a5acfa8d80e8b6dba6d8462283ee4cc51eca10db67dc31f2e495d43f85c51785f1187e60345a9014ca5641f895061fe",
+          "sha256": "af65682b2bd6e60c464d36c142fc1dd3a67f3d04139fd9619f184e97e036fac3",
+          "sha1": "5f7536d26d06bca60721460b749c275705cff9be",
+          "md5": "b8ee6869c2dbe2c39ae1d8ff9630a1ae"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1henchants-common-1.21.1-21.1.1.0-javadoc.jar",
+          "url": "gk1henchants-common-1.21.1-21.1.1.0-javadoc.jar",
+          "size": 120329,
+          "sha512": "a46cae0551832338553e2bb8fb51a18c7f6a0b5c8994b841ab54d85cb69ab3d5eba95ab37d4b4c64408bfb9629e6d864010b902a9b8b03298d399f636085f169",
+          "sha256": "f20347ce1feb2b28aae6873fe3d95008c4245e4ceacb203ad0f5d128ad1a5c25",
+          "sha1": "5cdc70637b054f7eff4c1a89ae728ecefa8899e8",
+          "md5": "9133459431afd58ac639a94bf45f5daf"
+        }
+      ]
+    }
+  ]
+}

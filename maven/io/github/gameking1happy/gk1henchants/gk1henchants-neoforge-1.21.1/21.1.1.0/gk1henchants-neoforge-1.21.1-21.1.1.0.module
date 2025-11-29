@@ -1,0 +1,258 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1henchants",
+    "module": "gk1henchants-neoforge-1.21.1",
+    "version": "21.1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1henchants-neoforge-1.21.1-21.1.1.0.jar",
+          "url": "gk1henchants-neoforge-1.21.1-21.1.1.0.jar",
+          "size": 60305,
+          "sha512": "f4c9844d40fb6aa718fe365ad7f4bc091d548af013a9a843723e03941d7cfff3f74617663c119fd45ea0ec68f829ce74b79a0e6dfd70a273717817343bd7f77b",
+          "sha256": "2ce24f854631a88dfce48eda7354bb21121b46c57956cdf37ec55e5f036d9901",
+          "sha1": "0f777fc151156c2ee7c18db6627f560f2418439c",
+          "md5": "485e7f22cdf68803ed32bb64d11d2745"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21+neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "universal-enchants",
+          "version": {
+            "requires": "v21.1.6-1.21.1-NeoForge"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.1.0"
+          }
+        },
+        {
+          "group": "fuzs.puzzleslib",
+          "module": "puzzleslib-neoforge",
+          "version": {
+            "requires": "21.1.39"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "netherite-extras",
+          "version": {
+            "requires": "0.4.0+mc1.21"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "forgified-fabric-api",
+          "version": {
+            "requires": "0.115.6+2.1.4+1.21.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "connector-extras",
+          "version": {
+            "requires": "1.12.1+1.21.1"
+          }
+        },
+        {
+          "group": "io.wispforest",
+          "module": "owo-lib-neoforge",
+          "version": {
+            "requires": "0.12.15.1-beta.6+1.21"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi-neoforge",
+          "version": {
+            "requires": "1.1.22+1.21.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "emi-enchanting",
+          "version": {
+            "requires": "0.1.2+1.21+neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "emi-loot",
+          "version": {
+            "requires": "0.7.7+1.21-fix1+neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "emi-ores",
+          "version": {
+            "requires": "1.2+1.21.1+neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "emi-professions-(emip)",
+          "version": {
+            "requires": "1.0.3-neoforge,1.21.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "emixx",
+          "version": {
+            "requires": "1.2.3-neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "emiffect",
+          "version": {
+            "requires": "2.1.6+mc1.21.1-neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "lmft",
+          "version": {
+            "requires": "1.1.1+1.21.9-neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "netherited-fireproof",
+          "version": {
+            "requires": "2.0.2-neoforge"
+          }
+        },
+        {
+          "group": "thedarkcolour",
+          "module": "kotlinforforge-neoforge",
+          "version": {
+            "requires": "5.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1henchants-neoforge-1.21.1-21.1.1.0.jar",
+          "url": "gk1henchants-neoforge-1.21.1-21.1.1.0.jar",
+          "size": 60305,
+          "sha512": "f4c9844d40fb6aa718fe365ad7f4bc091d548af013a9a843723e03941d7cfff3f74617663c119fd45ea0ec68f829ce74b79a0e6dfd70a273717817343bd7f77b",
+          "sha256": "2ce24f854631a88dfce48eda7354bb21121b46c57956cdf37ec55e5f036d9901",
+          "sha1": "0f777fc151156c2ee7c18db6627f560f2418439c",
+          "md5": "485e7f22cdf68803ed32bb64d11d2745"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1henchants-neoforge-1.21.1-21.1.1.0-sources.jar",
+          "url": "gk1henchants-neoforge-1.21.1-21.1.1.0-sources.jar",
+          "size": 28526,
+          "sha512": "1a61ce6aa95cbb120ebcdb71f5209f30edb2ea1d0d427cfbed6e8d6a8a6a1716df7791b15e35e95e05d5050d6155fdbf9a76b7fe3ca80a49899608f2c5ea62c6",
+          "sha256": "83170118b392c7d16ebd1bed2a8c0ce799418a61c6486c86ed862f3fc8c2acbb",
+          "sha1": "7f6355badae7382f9ed2aef4a052a0bc28e06bad",
+          "md5": "ca9546f7e45de8d83d14a46f81091014"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1henchants-neoforge-1.21.1-21.1.1.0-javadoc.jar",
+          "url": "gk1henchants-neoforge-1.21.1-21.1.1.0-javadoc.jar",
+          "size": 164553,
+          "sha512": "46ee164f5aa28298fa83bd1a1e42edf94ae6432ce20a4fc5df12389f5243dbc2ae2b263c2a7dc17c894af19ad1c7c696b1d87e0a531f37c81ea3f32398e9e016",
+          "sha256": "96a0392a9721fdb05c827fc17f683410bdb286cfbf577d1e750b45fdbf9edbf2",
+          "sha1": "1c352f0466e24a5bc8cac8ec710269b82438e6ed",
+          "md5": "d29781eb3e2cba3d012ee0ded974d094"
+        }
+      ]
+    }
+  ]
+}
