@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1hextras",
+    "module": "gk1hextras-fabric-1.21.1",
+    "version": "21.1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hextras-fabric-1.21.1-21.1.1.0.jar",
+          "url": "gk1hextras-fabric-1.21.1-21.1.1.0.jar",
+          "size": 16447,
+          "sha512": "0c4be9b620b3627716eb2a8641d03baf90b76f526d9860513357a4c01d1741ff643065142f311f180f98fe2271c0ca08a21b49ad7c7d27be13c3fd5b036737c2",
+          "sha256": "430f706b52aac8f83799204b06f359accba375ef9ba784e110414df5660cab78",
+          "sha1": "fdd69b70e8740da15dd47d2321a91c7a560bfe24",
+          "md5": "15ba949da1433bc8bada14e561eceab4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.0"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.7+1.21.1"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "ender-zoology",
+          "version": {
+            "requires": "v21.1.4-1.21.1-Fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "sword-blocking-mechanics",
+          "version": {
+            "requires": "v21.1.1-1.21.1-Fabric"
+          }
+        },
+        {
+          "group": "fuzs.puzzleslib",
+          "module": "puzzleslib-fabric",
+          "version": {
+            "requires": "21.1.39"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hextras-fabric-1.21.1-21.1.1.0.jar",
+          "url": "gk1hextras-fabric-1.21.1-21.1.1.0.jar",
+          "size": 16447,
+          "sha512": "0c4be9b620b3627716eb2a8641d03baf90b76f526d9860513357a4c01d1741ff643065142f311f180f98fe2271c0ca08a21b49ad7c7d27be13c3fd5b036737c2",
+          "sha256": "430f706b52aac8f83799204b06f359accba375ef9ba784e110414df5660cab78",
+          "sha1": "fdd69b70e8740da15dd47d2321a91c7a560bfe24",
+          "md5": "15ba949da1433bc8bada14e561eceab4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hextras-fabric-1.21.1-21.1.1.0-sources.jar",
+          "url": "gk1hextras-fabric-1.21.1-21.1.1.0-sources.jar",
+          "size": 13084,
+          "sha512": "9755535c56ce57dba6b23bfd492e46a3a68ebe62bb195b4b4543c9d25094b24b0fb08a2f7ee40fcc68670aab64201c6ed6138081db039b54e06efef485f3d6c3",
+          "sha256": "8267b48071fad4c6323737dee39b285d022dbc647dfb8a30f0df8be795ad8f8d",
+          "sha1": "571181a30c3210dbf65b1e9aad020046058f21f3",
+          "md5": "b1e3f9ad05ea0c852a1e0b92bde8a939"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hextras-fabric-1.21.1-21.1.1.0-javadoc.jar",
+          "url": "gk1hextras-fabric-1.21.1-21.1.1.0-javadoc.jar",
+          "size": 116651,
+          "sha512": "b3c310e7b5b5f912a8a0708bd5fcf428c79471ed54956714b8ceaa12f00a82528c1a0186f81bb4c2355d110fbc86b95afcc4058b09dc586d323a1103c151f69e",
+          "sha256": "eaf0cf3ec8da141630a60310a2d1e721340ab9b85fa19e3e7571714063b3f32d",
+          "sha1": "f0c036270c14a7a0b059a5287e9fc763f40d0985",
+          "md5": "5ad4fa120388551dd52cee778cbdbe8a"
+        }
+      ]
+    }
+  ]
+}
