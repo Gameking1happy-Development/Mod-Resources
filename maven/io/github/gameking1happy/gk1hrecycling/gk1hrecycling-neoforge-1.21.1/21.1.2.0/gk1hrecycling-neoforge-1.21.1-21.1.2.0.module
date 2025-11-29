@@ -1,0 +1,237 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1hrecycling",
+    "module": "gk1hrecycling-neoforge-1.21.1",
+    "version": "21.1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hrecipes",
+          "module": "gk1hrecipes-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hrecycling-neoforge-1.21.1-21.1.2.0.jar",
+          "url": "gk1hrecycling-neoforge-1.21.1-21.1.2.0.jar",
+          "size": 51871,
+          "sha512": "054d76e647a75356517949c64f708659bf38486b38b3eb94c884967808f275e1ca5893551756ecfcfd7061dae5ce9e08f167dee3f9f76d445bb1f5bb24ec7e5d",
+          "sha256": "9b7430cf166a05a5d9ad5193c350847c866414716f24e175319fc9eeb17939b0",
+          "sha1": "49988ea3a5ff3929675711bfea665f75e5162ee2",
+          "md5": "d31b825fc644e86da95ec331cd52a5e8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "maven.modrinth",
+          "module": "metal-bundles",
+          "version": {
+            "requires": "v21.1.1-1.21.1-NeoForge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "enchanting-infuser",
+          "version": {
+            "requires": "v21.1.2-1.21.1-NeoForge"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hrecipes",
+          "module": "gk1hrecipes-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.0"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21+neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "copper-recycling",
+          "version": {
+            "requires": "2.4.1+mod"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "diamond-recycling",
+          "version": {
+            "requires": "1.3.4+mod"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "better-gold-recycling",
+          "version": {
+            "requires": "2.4.2+mod"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "better-iron-recycling",
+          "version": {
+            "requires": "3.5.2+mod"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "leather-recycling",
+          "version": {
+            "requires": "1.6.4+mod"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "netherite-recycling",
+          "version": {
+            "requires": "1.4.1+mod"
+          }
+        },
+        {
+          "group": "fuzs.puzzleslib",
+          "module": "puzzleslib-neoforge",
+          "version": {
+            "requires": "21.1.39"
+          }
+        },
+        {
+          "group": "fuzs.iteminteractions",
+          "module": "iteminteractions-neoforge",
+          "version": {
+            "requires": "21.1.4"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "forgified-fabric-api",
+          "version": {
+            "requires": "0.115.6+2.1.4+1.21.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "connector-extras",
+          "version": {
+            "requires": "1.12.1+1.21.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "netherite-extras",
+          "version": {
+            "requires": "0.4.0+mc1.21"
+          }
+        },
+        {
+          "group": "io.wispforest",
+          "module": "owo-lib-neoforge",
+          "version": {
+            "requires": "0.12.15.1-beta.6+1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hrecycling-neoforge-1.21.1-21.1.2.0.jar",
+          "url": "gk1hrecycling-neoforge-1.21.1-21.1.2.0.jar",
+          "size": 51871,
+          "sha512": "054d76e647a75356517949c64f708659bf38486b38b3eb94c884967808f275e1ca5893551756ecfcfd7061dae5ce9e08f167dee3f9f76d445bb1f5bb24ec7e5d",
+          "sha256": "9b7430cf166a05a5d9ad5193c350847c866414716f24e175319fc9eeb17939b0",
+          "sha1": "49988ea3a5ff3929675711bfea665f75e5162ee2",
+          "md5": "d31b825fc644e86da95ec331cd52a5e8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hrecycling-neoforge-1.21.1-21.1.2.0-sources.jar",
+          "url": "gk1hrecycling-neoforge-1.21.1-21.1.2.0-sources.jar",
+          "size": 40441,
+          "sha512": "359be1df2bee488f5553ca46b2994cf8e8811b92bb4ee43c98cd9ee8c1a0e759567daf1764940f2a53dc3bc34b4fa07c734abf702943fa0b5553f379d4694564",
+          "sha256": "f9c9ff80659cdd6e3bee95d468515b612baf34dbb55a15e97850eed5da65f22a",
+          "sha1": "5cdc1a713ffcbaaaddba724c16a8525d197111c9",
+          "md5": "9c450274123561c52c021fdb1a14bc63"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hrecycling-neoforge-1.21.1-21.1.2.0-javadoc.jar",
+          "url": "gk1hrecycling-neoforge-1.21.1-21.1.2.0-javadoc.jar",
+          "size": 189499,
+          "sha512": "b183c237937c9c8d845f2e11fbe2ee772e8868cbdd71c86f89b6a36c1ab891131dcb05711e7d7565902bee63c1b4593458a1b3fbc0dbf096017d4633ad744d87",
+          "sha256": "4f134afde366d9af6dd0a05c137045853ceeac465b0f6391d79b70195d6330ef",
+          "sha1": "e6a29d117a19eb8ece4887f1b95d8f53edcf6bab",
+          "md5": "206acf131a66b0a63ac63675165c1085"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1hrecycling",
+    "module": "gk1hrecycling-fabric-1.21.1",
+    "version": "21.1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hrecipes",
+          "module": "gk1hrecipes-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hrecycling-fabric-1.21.1-21.1.2.0.jar",
+          "url": "gk1hrecycling-fabric-1.21.1-21.1.2.0.jar",
+          "size": 29545,
+          "sha512": "c14225d8811797b0b73d5ef932a1491bc14771bf28bc7c78ad2a273961477b0be92a9d3f40fe4e8f0b45d7a80c37836842c0e74487a409407ba50a4cbfdfb4f9",
+          "sha256": "6a963a3f1fa5ec4047e5f5b58be804430c3332cb27cde8b5956e66d0a6a64046",
+          "sha1": "3d54c488ccdf347eeabeb8eb819ef91e61bd2c1c",
+          "md5": "1a4160f6de09f7e50302be6bf0086118"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hrecipes",
+          "module": "gk1hrecipes-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.0"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.7+1.21.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "metal-bundles",
+          "version": {
+            "requires": "v21.1.1-1.21.1-Fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "enchanting-infuser",
+          "version": {
+            "requires": "v21.1.2-1.21.1-Fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "netherite-extras",
+          "version": {
+            "requires": "0.4.0+mc1.21"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "copper-recycling",
+          "version": {
+            "requires": "2.4.1+mod"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "diamond-recycling",
+          "version": {
+            "requires": "1.3.4+mod"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "better-gold-recycling",
+          "version": {
+            "requires": "2.4.2+mod"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "better-iron-recycling",
+          "version": {
+            "requires": "3.5.2+mod"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "leather-recycling",
+          "version": {
+            "requires": "1.6.4+mod"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "netherite-recycling",
+          "version": {
+            "requires": "1.4.1+mod"
+          }
+        },
+        {
+          "group": "fuzs.puzzleslib",
+          "module": "puzzleslib-fabric",
+          "version": {
+            "requires": "21.1.39"
+          }
+        },
+        {
+          "group": "fuzs.iteminteractions",
+          "module": "iteminteractions-fabric",
+          "version": {
+            "requires": "21.1.4"
+          }
+        },
+        {
+          "group": "io.wispforest",
+          "module": "owo-lib",
+          "version": {
+            "requires": "0.12.15.4+1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hrecycling-fabric-1.21.1-21.1.2.0.jar",
+          "url": "gk1hrecycling-fabric-1.21.1-21.1.2.0.jar",
+          "size": 29545,
+          "sha512": "c14225d8811797b0b73d5ef932a1491bc14771bf28bc7c78ad2a273961477b0be92a9d3f40fe4e8f0b45d7a80c37836842c0e74487a409407ba50a4cbfdfb4f9",
+          "sha256": "6a963a3f1fa5ec4047e5f5b58be804430c3332cb27cde8b5956e66d0a6a64046",
+          "sha1": "3d54c488ccdf347eeabeb8eb819ef91e61bd2c1c",
+          "md5": "1a4160f6de09f7e50302be6bf0086118"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hrecycling-fabric-1.21.1-21.1.2.0-sources.jar",
+          "url": "gk1hrecycling-fabric-1.21.1-21.1.2.0-sources.jar",
+          "size": 28113,
+          "sha512": "be1c2084d45cd088c0f2b6199a0dbd9324efcbedad4968e74d5a70a99096b5c30022e2655a07b85a48b8f4390efd87f3fec5847d2f2caabe5a03c7e2471562b6",
+          "sha256": "931880b12aa023e61cb43e9f9e5fc820b0527320cb0a0df70579666f41715579",
+          "sha1": "e2a54500efdb350939e7a285b0b038048edffed0",
+          "md5": "1dd8f8a53facd0aeaca59d9491c45fe6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hrecycling-fabric-1.21.1-21.1.2.0-javadoc.jar",
+          "url": "gk1hrecycling-fabric-1.21.1-21.1.2.0-javadoc.jar",
+          "size": 109783,
+          "sha512": "f515e8b98fed300961f5a07bf5c0bfe4aad7b07c897b5332e92365a0daa0c4a2a8d5d47ef1cbd7d903897b84dafb4b8cd421199399952b367c055f7cf2e03316",
+          "sha256": "6af25ac4923b70f4611682648ade877d57c83376f61853df97d7513c3abb5688",
+          "sha1": "64bd7f504cef0c1e0de8d1e1c70e9a83a5d4770e",
+          "md5": "59a5595024fd9c0935a245096e91a644"
+        }
+      ]
+    }
+  ]
+}

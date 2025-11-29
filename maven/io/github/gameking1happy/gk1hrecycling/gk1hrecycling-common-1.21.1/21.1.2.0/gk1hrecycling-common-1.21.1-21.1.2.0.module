@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1hrecycling",
+    "module": "gk1hrecycling-common-1.21.1",
+    "version": "21.1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hrecipes",
+          "module": "gk1hrecipes-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hrecycling-common-1.21.1-21.1.2.0.jar",
+          "url": "gk1hrecycling-common-1.21.1-21.1.2.0.jar",
+          "size": 24959,
+          "sha512": "98b481a1aaea7853c0760cb13dc74f1af9349a35480811f054fd95ad1e560fa5f422bac51c7989166ad09ca2a875111ed3da73c7c7d269a842fc40bfebb4dfaa",
+          "sha256": "114be5469026d34b1c6dcf57498aff5bbdb3a47f6635371e25021c65564400c3",
+          "sha1": "237c959bb8b9e517ab1f9786410d6af119b63587",
+          "md5": "b4f0c1770422e6620b48b50dbab77942"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hrecipes",
+          "module": "gk1hrecipes-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hrecycling-common-1.21.1-21.1.2.0.jar",
+          "url": "gk1hrecycling-common-1.21.1-21.1.2.0.jar",
+          "size": 24959,
+          "sha512": "98b481a1aaea7853c0760cb13dc74f1af9349a35480811f054fd95ad1e560fa5f422bac51c7989166ad09ca2a875111ed3da73c7c7d269a842fc40bfebb4dfaa",
+          "sha256": "114be5469026d34b1c6dcf57498aff5bbdb3a47f6635371e25021c65564400c3",
+          "sha1": "237c959bb8b9e517ab1f9786410d6af119b63587",
+          "md5": "b4f0c1770422e6620b48b50dbab77942"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hrecycling-common-1.21.1-21.1.2.0-sources.jar",
+          "url": "gk1hrecycling-common-1.21.1-21.1.2.0-sources.jar",
+          "size": 23958,
+          "sha512": "2b3daedefc59c2361da1effaae2cf0adcad60822a62c430810da5ff9f6e9ffec1b897ac4d47d744d0d057e786c5d54efdf8c6958acf1c9e8faccc471e45ce1da",
+          "sha256": "168fdc03159b0e21e37395faeb5dee069d2dd6a4215f5d14143269db1664b61a",
+          "sha1": "ce5a16936a5537360a0df8cff837c61dc4ea248f",
+          "md5": "aaacdc3b60f8ea9262538f0dc829b81d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hrecycling-common-1.21.1-21.1.2.0-javadoc.jar",
+          "url": "gk1hrecycling-common-1.21.1-21.1.2.0-javadoc.jar",
+          "size": 101406,
+          "sha512": "53cb16a35d4142f8c63426039726775c779ce8bd81ea649f004c8ff1af8a5878e2249db42757339eebfaa01f5ad65444a89ddc77b6be2f729ad2a3a9deb4dcca",
+          "sha256": "02cf6eb7dda1d993590eeef284996d0c3f785bea6755e76412f75798ce3b9c45",
+          "sha1": "9a77884cc46963915ba58b3e8d63cfec06dbcd2b",
+          "md5": "04a78cc9d8eb4833136ca3368063f315"
+        }
+      ]
+    }
+  ]
+}
