@@ -1,0 +1,205 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1haccessorifyplus",
+    "module": "gk1haccessorifyplus-fabric-1.21.1",
+    "version": "21.1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0.jar",
+          "url": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0.jar",
+          "size": 48001,
+          "sha512": "6ed5de8b975147a82ae10ff2b8cc5d5c6dc838d5614e6a9cfea4fc16154338062b7cc06c87ef321e8d25598354a9f6052d396c25d457a5d27b1bca28ab5dbcab",
+          "sha256": "a723931da849110dc1917bf1ca8d0c295c3680e487ec0f30510419fcfb52aab7",
+          "sha1": "e75281acd23ea35f24e7a3330c7f12111b7f4c57",
+          "md5": "fdd2414a5b55bbc01b8d39691fb262f1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.1"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.7+1.21.1"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "netherite-extras",
+          "version": {
+            "requires": "0.4.0+mc1.21"
+          }
+        },
+        {
+          "group": "atonkish.reinfshulker",
+          "module": "reinforced-shulker-boxes",
+          "version": {
+            "requires": "3.2.1+1.21.1"
+          },
+          "excludes": [
+            {
+              "group": "com.misterpemodder",
+              "module": "*"
+            },
+            {
+              "group": "atonkish.reinfchest",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "accessorify",
+          "version": {
+            "requires": "2.3.5+1.21.1-fabric"
+          }
+        },
+        {
+          "group": "io.wispforest",
+          "module": "accessories-fabric",
+          "version": {
+            "requires": "1.1.0-beta.52+1.21.1"
+          }
+        },
+        {
+          "group": "io.wispforest",
+          "module": "owo-lib",
+          "version": {
+            "requires": "0.12.15.4+1.21"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-language-kotlin",
+          "version": {
+            "requires": "1.13.7+kotlin.2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0.jar",
+          "url": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0.jar",
+          "size": 48001,
+          "sha512": "6ed5de8b975147a82ae10ff2b8cc5d5c6dc838d5614e6a9cfea4fc16154338062b7cc06c87ef321e8d25598354a9f6052d396c25d457a5d27b1bca28ab5dbcab",
+          "sha256": "a723931da849110dc1917bf1ca8d0c295c3680e487ec0f30510419fcfb52aab7",
+          "sha1": "e75281acd23ea35f24e7a3330c7f12111b7f4c57",
+          "md5": "fdd2414a5b55bbc01b8d39691fb262f1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0-sources.jar",
+          "url": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0-sources.jar",
+          "size": 18510,
+          "sha512": "46a24b59f9a5f0e28917f1282792655302abd9523e16d0d05b6fb2d76e3802f481e3fd3b238c6c1e9f5bf9655a3cbe96e4c82d2605a33253b25636eef65b28df",
+          "sha256": "3c541c4db328d2130a32b135758e393e7f2231b6d50ed95a1d8b18cf27ac8b4e",
+          "sha1": "2d458ef7dd53522c882f6fcfa4584f3e8bbfd21c",
+          "md5": "53819969a7561f3fde580458055a07dc"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0-javadoc.jar",
+          "url": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0-javadoc.jar",
+          "size": 134341,
+          "sha512": "55eb81759282ddcf2e15c10912498791644ba4c67b76d6c1f6d4ab28a39ec0dcba29de51a330f43bfd5a51d8ea71b071245fa8657495c56886a9bbdd93592a05",
+          "sha256": "209b7c73495230614a8293f73169634705a2ed6112185a32f8a5d7196ea79eea",
+          "sha1": "edd1bf3cd01237e689f92d91483ada7d7385c387",
+          "md5": "c06a7391b9b090b46a33ff613d80ebd6"
+        }
+      ]
+    }
+  ]
+}
