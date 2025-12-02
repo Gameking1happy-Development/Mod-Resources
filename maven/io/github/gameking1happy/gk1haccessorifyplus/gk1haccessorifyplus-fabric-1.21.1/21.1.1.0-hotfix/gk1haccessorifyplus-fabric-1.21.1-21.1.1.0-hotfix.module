@@ -1,0 +1,205 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1haccessorifyplus",
+    "module": "gk1haccessorifyplus-fabric-1.21.1",
+    "version": "21.1.1.0-hotfix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0-hotfix.jar",
+          "url": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0-hotfix.jar",
+          "size": 48022,
+          "sha512": "4b6809b4e787da9e65c5826f7e971aa345fc22ad4a36bd7267a5982e68d6c90109195feae5a7892e077708f0ff774302f38a0890bd5c23b2b9412d24be39097f",
+          "sha256": "faf9aebf2c46e1a6e20f8155796abb5be05c14df99e73f19ab578894c9759566",
+          "sha1": "b84bcdb5e86332d4647fc0d4a3347becd2c431d5",
+          "md5": "0380aeb977a42e1325ef401c74e8a492"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.1"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.7+1.21.1"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "netherite-extras",
+          "version": {
+            "requires": "0.4.0+mc1.21"
+          }
+        },
+        {
+          "group": "atonkish.reinfshulker",
+          "module": "reinforced-shulker-boxes",
+          "version": {
+            "requires": "3.2.1+1.21.1"
+          },
+          "excludes": [
+            {
+              "group": "com.misterpemodder",
+              "module": "*"
+            },
+            {
+              "group": "atonkish.reinfchest",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "accessorify",
+          "version": {
+            "requires": "2.3.5+1.21.1-fabric"
+          }
+        },
+        {
+          "group": "io.wispforest",
+          "module": "accessories-fabric",
+          "version": {
+            "requires": "1.1.0-beta.52+1.21.1"
+          }
+        },
+        {
+          "group": "io.wispforest",
+          "module": "owo-lib",
+          "version": {
+            "requires": "0.12.15.4+1.21"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-language-kotlin",
+          "version": {
+            "requires": "1.13.7+kotlin.2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0-hotfix.jar",
+          "url": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0-hotfix.jar",
+          "size": 48022,
+          "sha512": "4b6809b4e787da9e65c5826f7e971aa345fc22ad4a36bd7267a5982e68d6c90109195feae5a7892e077708f0ff774302f38a0890bd5c23b2b9412d24be39097f",
+          "sha256": "faf9aebf2c46e1a6e20f8155796abb5be05c14df99e73f19ab578894c9759566",
+          "sha1": "b84bcdb5e86332d4647fc0d4a3347becd2c431d5",
+          "md5": "0380aeb977a42e1325ef401c74e8a492"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0-hotfix-sources.jar",
+          "url": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0-hotfix-sources.jar",
+          "size": 18511,
+          "sha512": "ee3adbe4897344c8b58f7749a20277ededb040168a5f1fb1540aad104472a027e1fba3bb26ecf2e744d524ecb28e8bb41b7dfb3bdd4c4bffdc205a889619f36b",
+          "sha256": "a92d8012bb94f140227467bdcd7d922c23b825f486a4d244991030344a5880a5",
+          "sha1": "ba1343dea175b3f01d03b71b132b73709febb406",
+          "md5": "da64a80f35fb0087ee575b9048725831"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0-hotfix-javadoc.jar",
+          "url": "gk1haccessorifyplus-fabric-1.21.1-21.1.1.0-hotfix-javadoc.jar",
+          "size": 134531,
+          "sha512": "f1ee74dfb0862b7a1db4b1a1ad9fc2d5a3c65a3217905968fc1ddd9abacf80e6a7db904f2955082cb0669912c27b05ae8725eef5da19d7dfbc5d3afb3f3ef740",
+          "sha256": "fb51ee67c8c2406df3b68a73a4b2f1082f06a3a41a7d022bc6de1004b5d257c8",
+          "sha1": "075c236d2834c69ce317f4b4a1477ca99191f8ab",
+          "md5": "d0a84d7c12a4318551e2391ec8b01448"
+        }
+      ]
+    }
+  ]
+}

@@ -3,11 +3,12 @@
   <groupId>io.github.gameking1happy.gk1haccessorifyplus</groupId>
   <artifactId>gk1haccessorifyplus-common-1.21.1</artifactId>
   <versioning>
-    <latest>21.1.1.0</latest>
-    <release>21.1.1.0</release>
+    <latest>21.1.1.0-hotfix</latest>
+    <release>21.1.1.0-hotfix</release>
     <versions>
       <version>21.1.1.0</version>
+      <version>21.1.1.0-hotfix</version>
     </versions>
-    <lastUpdated>20251130203420</lastUpdated>
+    <lastUpdated>20251202003059</lastUpdated>
   </versioning>
 </metadata>

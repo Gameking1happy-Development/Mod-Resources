@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1haccessorifyplus",
+    "module": "gk1haccessorifyplus-common-1.21.1",
+    "version": "21.1.1.0-hotfix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-common-1.21.1-21.1.1.0-hotfix.jar",
+          "url": "gk1haccessorifyplus-common-1.21.1-21.1.1.0-hotfix.jar",
+          "size": 41689,
+          "sha512": "461b87351d57788b499b0d8d9e834b18bc816127cd1b735a0151c80e76cff48223300b5b090063293a0615d231ee2fc047e4d6adb85755e19b3f2930f7c9f66c",
+          "sha256": "2c5eeaca0be6a4e41bb2a30030770c66f253c8f1aca7cd943f913374b592096d",
+          "sha1": "0f1003fe40ec58d598abe7f431eb893924b4d9bc",
+          "md5": "d1302198c59afde0d0371ec9162cada4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21+neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "accessorify",
+          "version": {
+            "requires": "2.3.6+1.21.1-neoforge"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-common-1.21.1-21.1.1.0-hotfix.jar",
+          "url": "gk1haccessorifyplus-common-1.21.1-21.1.1.0-hotfix.jar",
+          "size": 41689,
+          "sha512": "461b87351d57788b499b0d8d9e834b18bc816127cd1b735a0151c80e76cff48223300b5b090063293a0615d231ee2fc047e4d6adb85755e19b3f2930f7c9f66c",
+          "sha256": "2c5eeaca0be6a4e41bb2a30030770c66f253c8f1aca7cd943f913374b592096d",
+          "sha1": "0f1003fe40ec58d598abe7f431eb893924b4d9bc",
+          "md5": "d1302198c59afde0d0371ec9162cada4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-common-1.21.1-21.1.1.0-hotfix-sources.jar",
+          "url": "gk1haccessorifyplus-common-1.21.1-21.1.1.0-hotfix-sources.jar",
+          "size": 13830,
+          "sha512": "497e374acc7256f270a8510034cbc4bf4a9bdd4663f6ef4f662412c491aba949a4c2784805fbd3bee69dfb311a2f6a5bc574ec1aa39f834e491d0e2dd85bc398",
+          "sha256": "88cb8e6e216df26544ac35a5d965327f08a27045e75bb18819ec225a3f601d91",
+          "sha1": "27275060a0e4bb941e9dd592eb52c9dc4d7aa4a7",
+          "md5": "8722c55937226e84c35757174eb0716f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-common-1.21.1-21.1.1.0-hotfix-javadoc.jar",
+          "url": "gk1haccessorifyplus-common-1.21.1-21.1.1.0-hotfix-javadoc.jar",
+          "size": 122408,
+          "sha512": "72dc2aa7376bfcd007c2ce17b83848d4782dfec4d8b8fa1de0414274c6b11d3bc7714611f8593b04d8179628de110d07b9024caefb181a85617614d64f68dfce",
+          "sha256": "fcf3a122b47f4daec993950643682f7018dbf23e15d731e181ebf9694cc4747e",
+          "sha1": "39fcd4e8fa4a34deee74a83f763cc36c5025e47b",
+          "md5": "d1c2b85957f74e4de5a62c09d5fb5c30"
+        }
+      ]
+    }
+  ]
+}
