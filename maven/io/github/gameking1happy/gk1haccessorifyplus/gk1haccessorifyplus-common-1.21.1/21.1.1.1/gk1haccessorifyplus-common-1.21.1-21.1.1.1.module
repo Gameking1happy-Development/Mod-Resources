@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1haccessorifyplus",
+    "module": "gk1haccessorifyplus-common-1.21.1",
+    "version": "21.1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-common-1.21.1-21.1.1.1.jar",
+          "url": "gk1haccessorifyplus-common-1.21.1-21.1.1.1.jar",
+          "size": 41685,
+          "sha512": "929f41a8d1f61b4ea76518052d73488033d56e8aaceeda49d07140af18c1a2185eebc79d2a9de4b54e4597e4bd693d07f6e2e66bc0fa9eb7459906bf767ed00c",
+          "sha256": "6fe63738ed05ed720278b9491ca60a410b4ad2b89e7fbf3a14c653bc8d7975d5",
+          "sha1": "89b3d7a1fb70c768f76ec10d14903581a6a42d9e",
+          "md5": "e826aaa2909ac3d492fb81de2332c616"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21+neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "accessorify",
+          "version": {
+            "requires": "2.3.6+1.21.1-neoforge"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-common-1.21.1-21.1.1.1.jar",
+          "url": "gk1haccessorifyplus-common-1.21.1-21.1.1.1.jar",
+          "size": 41685,
+          "sha512": "929f41a8d1f61b4ea76518052d73488033d56e8aaceeda49d07140af18c1a2185eebc79d2a9de4b54e4597e4bd693d07f6e2e66bc0fa9eb7459906bf767ed00c",
+          "sha256": "6fe63738ed05ed720278b9491ca60a410b4ad2b89e7fbf3a14c653bc8d7975d5",
+          "sha1": "89b3d7a1fb70c768f76ec10d14903581a6a42d9e",
+          "md5": "e826aaa2909ac3d492fb81de2332c616"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-common-1.21.1-21.1.1.1-sources.jar",
+          "url": "gk1haccessorifyplus-common-1.21.1-21.1.1.1-sources.jar",
+          "size": 13830,
+          "sha512": "497e374acc7256f270a8510034cbc4bf4a9bdd4663f6ef4f662412c491aba949a4c2784805fbd3bee69dfb311a2f6a5bc574ec1aa39f834e491d0e2dd85bc398",
+          "sha256": "88cb8e6e216df26544ac35a5d965327f08a27045e75bb18819ec225a3f601d91",
+          "sha1": "27275060a0e4bb941e9dd592eb52c9dc4d7aa4a7",
+          "md5": "8722c55937226e84c35757174eb0716f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-common-1.21.1-21.1.1.1-javadoc.jar",
+          "url": "gk1haccessorifyplus-common-1.21.1-21.1.1.1-javadoc.jar",
+          "size": 122194,
+          "sha512": "d5e0e0d102dc541da5134c13fae74cd7a4013162f833a380014ae26e3dbd28cc40551a78fd6a51e38c711441b1c4d04792632aa753e7c47fff5f335f34f8725e",
+          "sha256": "fa9d197e700815e4fcd0e995e14939f9f5797dfc1aae6ec725db6c89bd0fcee4",
+          "sha1": "bb58e9e1bcfff4f299f7d1c2892ca2f9b0a0ad08",
+          "md5": "0e2bac0cd3ab468b8ca254f646a22e9f"
+        }
+      ]
+    }
+  ]
+}
