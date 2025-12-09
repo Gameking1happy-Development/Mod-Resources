@@ -1,0 +1,224 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1haccessorifyplus",
+    "module": "gk1haccessorifyplus-neoforge-1.21.1",
+    "version": "21.1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-neoforge-1.21.1-21.1.2.0.jar",
+          "url": "gk1haccessorifyplus-neoforge-1.21.1-21.1.2.0.jar",
+          "size": 44952,
+          "sha512": "ce0d8d48d9714217894d0e999af3b15cf1b7e41364aaab38397407bf1121d49ac355305ee645bb146abd9773b4b758f9d07e2a6ee73d8955a3956228fddf2e6a",
+          "sha256": "61d18e79b85ad83f0101a4e446135ffb300ce07acef718075a48076056f403d4",
+          "sha1": "63f8ee154cabed413ff389620063121285241e53",
+          "md5": "f898dbc7986ff08345dbfd948c673ad9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21+neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "accessorify",
+          "version": {
+            "requires": "2.4.0-beta.3+1.21.1-neoforge"
+          }
+        },
+        {
+          "group": "io.wispforest",
+          "module": "accessories-neoforge",
+          "version": {
+            "requires": "1.1.0-beta.52+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.2"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.1.0"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "netherite-extras",
+          "version": {
+            "requires": "0.4.0+mc1.21"
+          }
+        },
+        {
+          "group": "atonkish.reinfshulker",
+          "module": "reinforced-shulker-boxes",
+          "version": {
+            "requires": "3.2.1+1.21.1"
+          },
+          "excludes": [
+            {
+              "group": "com.misterpemodder",
+              "module": "*"
+            },
+            {
+              "group": "com.terraformersmc",
+              "module": "modmenu"
+            },
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            },
+            {
+              "group": "atonkish.reinfchest",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.wispforest",
+          "module": "owo-lib-neoforge",
+          "version": {
+            "requires": "0.12.15.1-beta.6+1.21"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "forgified-fabric-api",
+          "version": {
+            "requires": "0.115.6+2.1.4+1.21.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "connector-extras",
+          "version": {
+            "requires": "1.12.1+1.21.1"
+          }
+        },
+        {
+          "group": "thedarkcolour",
+          "module": "kotlinforforge-neoforge",
+          "version": {
+            "requires": "5.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-neoforge-1.21.1-21.1.2.0.jar",
+          "url": "gk1haccessorifyplus-neoforge-1.21.1-21.1.2.0.jar",
+          "size": 44952,
+          "sha512": "ce0d8d48d9714217894d0e999af3b15cf1b7e41364aaab38397407bf1121d49ac355305ee645bb146abd9773b4b758f9d07e2a6ee73d8955a3956228fddf2e6a",
+          "sha256": "61d18e79b85ad83f0101a4e446135ffb300ce07acef718075a48076056f403d4",
+          "sha1": "63f8ee154cabed413ff389620063121285241e53",
+          "md5": "f898dbc7986ff08345dbfd948c673ad9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-neoforge-1.21.1-21.1.2.0-sources.jar",
+          "url": "gk1haccessorifyplus-neoforge-1.21.1-21.1.2.0-sources.jar",
+          "size": 15958,
+          "sha512": "6dc8271cede44245c3b264a4d3a36cdef04185b4768f450106f8878ec7f1682cc12417e4dddb243b8c60b670e70a100d85104099c7d09ab8784991086b5c4052",
+          "sha256": "aeec073e752e654d6bed9f1342f25395fa822e8f1da14a882ad8f7fd7b2263b4",
+          "sha1": "caa71830a402213207f82032fc0543640ef3f6dd",
+          "md5": "3cf5d3f9dc2640d5aff1c1f676999262"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-neoforge-1.21.1-21.1.2.0-javadoc.jar",
+          "url": "gk1haccessorifyplus-neoforge-1.21.1-21.1.2.0-javadoc.jar",
+          "size": 141688,
+          "sha512": "1a9243b957cc4486589841a4b1617ecd8346b99ca8dc90e5231c8d0e0c8aa45292ad87c5ce0b867bd576bd2eb6c700624152c25ee04746b080416e9a0f91c522",
+          "sha256": "427a47b765e82e43fbcb081b77bf865f073596f491cca72f1cd2f977fa271ef8",
+          "sha1": "3e8f2f79a37ba568680f1bb2e8ce96b63206d358",
+          "md5": "41cd949aa69a69dbec469b61f7bd959a"
+        }
+      ]
+    }
+  ]
+}
