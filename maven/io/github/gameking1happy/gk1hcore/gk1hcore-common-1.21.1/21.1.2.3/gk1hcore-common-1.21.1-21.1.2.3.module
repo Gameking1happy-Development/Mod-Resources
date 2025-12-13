@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1hcore",
+    "module": "gk1hcore-common-1.21.1",
+    "version": "21.1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gk1hcore-common-1.21.1-21.1.2.3.jar",
+          "url": "gk1hcore-common-1.21.1-21.1.2.3.jar",
+          "size": 16928,
+          "sha512": "d7f1d34e38aa5897fedf0a28dbe37c06b95259a233e5f15d7a5f23b7984373c4f7ec5ec0e54d741aa262ba66851f8aaca6e9740a64941e5176a1922cc2d22f18",
+          "sha256": "d84076eeff0e01649ac0bd9fffb82f47d745ccfcc82865dbdc78d54bd355b45f",
+          "sha1": "d26858a98303480b55a6693f529d84046470d62f",
+          "md5": "02137560613d1dbaeac3cd41479c488e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hcore-common-1.21.1-21.1.2.3.jar",
+          "url": "gk1hcore-common-1.21.1-21.1.2.3.jar",
+          "size": 16928,
+          "sha512": "d7f1d34e38aa5897fedf0a28dbe37c06b95259a233e5f15d7a5f23b7984373c4f7ec5ec0e54d741aa262ba66851f8aaca6e9740a64941e5176a1922cc2d22f18",
+          "sha256": "d84076eeff0e01649ac0bd9fffb82f47d745ccfcc82865dbdc78d54bd355b45f",
+          "sha1": "d26858a98303480b55a6693f529d84046470d62f",
+          "md5": "02137560613d1dbaeac3cd41479c488e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hcore-common-1.21.1-21.1.2.3-sources.jar",
+          "url": "gk1hcore-common-1.21.1-21.1.2.3-sources.jar",
+          "size": 13414,
+          "sha512": "66981fc02a87bc72a204f21a19403fe51b1f41ced22093649b876508e66ecd0b9d70cc73056d96b2f552bd7d45da8f5554b3e3c529100cee2c0c734580c3876e",
+          "sha256": "23554ee892d31163d3027fe5366d095eb4e661f237bc5c17011fc9c822003537",
+          "sha1": "d5ac228078cf0e5223989880717df4338cd88e16",
+          "md5": "b149f543125ee308b47ff46c0fb2e870"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hcore-common-1.21.1-21.1.2.3-javadoc.jar",
+          "url": "gk1hcore-common-1.21.1-21.1.2.3-javadoc.jar",
+          "size": 148226,
+          "sha512": "b614762561c6c95d3ad6ad1da26bf71281dc81175963fb31157349a13e285e03de2dc8992afa7b34b5b1b57972d58807a38c0eee0da83c2c4b76e4892676cdcb",
+          "sha256": "170d09b3f91fa12837aa3be50e7601d32d79a959ef9d7168d6e19e7f7e5fc889",
+          "sha1": "f9543285e5c7e9b63dadf0e6a7dd28b6288a38f9",
+          "md5": "36e6c7de423a46ebba1c42004c93820f"
+        }
+      ]
+    }
+  ]
+}
