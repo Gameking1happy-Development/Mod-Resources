@@ -1,0 +1,219 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1haccessorifyplus",
+    "module": "gk1haccessorifyplus-fabric-1.21.1",
+    "version": "21.1.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-fabric-1.21.1-21.1.2.1.jar",
+          "url": "gk1haccessorifyplus-fabric-1.21.1-21.1.2.1.jar",
+          "size": 40988,
+          "sha512": "95ff45c5aeb4e1984da08da67abf4ea6028c88755f8f4277aa42c530290734dbae31bcbd939548cd713a92d7c44b0670c7817438d43bfd601992e1a54186c5eb",
+          "sha256": "b7f6ea72e9d4d610db1fcea1baab97a92bca172906dedb2d459de6353baf6500",
+          "sha1": "228d0e26f22d1b7287ab6909760edd0a2cd115ee",
+          "md5": "5349bd535f8d9cf8dfeabcea02672fdd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.1.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.1"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.7+1.21.1"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "netherite-extras",
+          "version": {
+            "requires": "0.4.0+mc1.21"
+          }
+        },
+        {
+          "group": "atonkish.reinfshulker",
+          "module": "reinforced-shulker-boxes",
+          "version": {
+            "requires": "3.2.1+1.21.1"
+          },
+          "excludes": [
+            {
+              "group": "com.misterpemodder",
+              "module": "*"
+            },
+            {
+              "group": "atonkish.reinfchest",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "accessorify",
+          "version": {
+            "requires": "2.4.0-beta.3+1.21.1-fabric"
+          }
+        },
+        {
+          "group": "io.wispforest",
+          "module": "accessories-fabric",
+          "version": {
+            "requires": "1.1.0-beta.52+1.21.1"
+          }
+        },
+        {
+          "group": "io.wispforest",
+          "module": "owo-lib",
+          "version": {
+            "requires": "0.12.15.4+1.21"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-language-kotlin",
+          "version": {
+            "requires": "1.13.7+kotlin.2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-fabric-1.21.1-21.1.2.1.jar",
+          "url": "gk1haccessorifyplus-fabric-1.21.1-21.1.2.1.jar",
+          "size": 40988,
+          "sha512": "95ff45c5aeb4e1984da08da67abf4ea6028c88755f8f4277aa42c530290734dbae31bcbd939548cd713a92d7c44b0670c7817438d43bfd601992e1a54186c5eb",
+          "sha256": "b7f6ea72e9d4d610db1fcea1baab97a92bca172906dedb2d459de6353baf6500",
+          "sha1": "228d0e26f22d1b7287ab6909760edd0a2cd115ee",
+          "md5": "5349bd535f8d9cf8dfeabcea02672fdd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-fabric-1.21.1-21.1.2.1-sources.jar",
+          "url": "gk1haccessorifyplus-fabric-1.21.1-21.1.2.1-sources.jar",
+          "size": 13460,
+          "sha512": "472ea45c7138880be379cec11b23bd83350df8dc4170801fd9096f637c74d7b74aa5fcb7130ff8a24af59864f0d97968bf85fe72ebc74bae65c7e9125f04add0",
+          "sha256": "79d3da86f7b7864ab0a821067d4bc3fca0b5a49c30a90c65bf697fb857aa5d01",
+          "sha1": "176d9897746ab19ce229588160b5385b9e2fff55",
+          "md5": "86efcce596c66b9eec1181ec89cb93d1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1haccessorifyplus-fabric-1.21.1-21.1.2.1-javadoc.jar",
+          "url": "gk1haccessorifyplus-fabric-1.21.1-21.1.2.1-javadoc.jar",
+          "size": 126115,
+          "sha512": "df1e349bfa100fc2aa3d9bafacba37810e722e1c50c1aa2042cb7bcb41dcb30d604d3837951daf8a12742f9e30020753336034662ecd4db6d9471f907556d497",
+          "sha256": "a04d449bb70c1bcd227c05b6a3c0d41d354fa69130e339a156d52e4d1ccca2af",
+          "sha1": "f285357bf08a1b533e5a30e3a59b7b2349ff4604",
+          "md5": "94aaf6f51a9e3e22d5d630b507ff2349"
+        }
+      ]
+    }
+  ]
+}
