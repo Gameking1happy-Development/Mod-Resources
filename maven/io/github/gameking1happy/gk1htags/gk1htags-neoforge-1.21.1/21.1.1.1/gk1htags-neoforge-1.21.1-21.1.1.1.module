@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1htags",
+    "module": "gk1htags-neoforge-1.21.1",
+    "version": "21.1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1htags-neoforge-1.21.1-21.1.1.1.jar",
+          "url": "gk1htags-neoforge-1.21.1-21.1.1.1.jar",
+          "size": 38403,
+          "sha512": "4fb9daeeb7bf6bd82109ebe73a24e3fa2d077a68173e978ae19c5f2d7598a13d067331ee913b557efa83ce68920e39307d7310d42b1ddf028ed1361ef1a4caf0",
+          "sha256": "e2295e99e0933feb11622ed1abe61d498069d2c34b8950c878c3c61d36af5411",
+          "sha1": "9d0bc5dff81eda3cb8ee4a70e6247af28502212a",
+          "md5": "dbb5a8ffa3ec2111439ba5c17ca4a198"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1htags-neoforge-1.21.1-21.1.1.1.jar",
+          "url": "gk1htags-neoforge-1.21.1-21.1.1.1.jar",
+          "size": 38403,
+          "sha512": "4fb9daeeb7bf6bd82109ebe73a24e3fa2d077a68173e978ae19c5f2d7598a13d067331ee913b557efa83ce68920e39307d7310d42b1ddf028ed1361ef1a4caf0",
+          "sha256": "e2295e99e0933feb11622ed1abe61d498069d2c34b8950c878c3c61d36af5411",
+          "sha1": "9d0bc5dff81eda3cb8ee4a70e6247af28502212a",
+          "md5": "dbb5a8ffa3ec2111439ba5c17ca4a198"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1htags-neoforge-1.21.1-21.1.1.1-sources.jar",
+          "url": "gk1htags-neoforge-1.21.1-21.1.1.1-sources.jar",
+          "size": 29240,
+          "sha512": "30f4acc99edf190370d2816be7f89c44be6620609d1f0c4431aaa73ddb72cfbc6d18e4b68c0ab4bb22468bc92d25f30d186c11c884a0614310355d7e4e7818b0",
+          "sha256": "69129a0af7c4050d4d09fe81f0966f9b2348813963bc4d27553b92e06e78bbe3",
+          "sha1": "a91ae04c909faebf88305235640c129caa7695ad",
+          "md5": "6ddfc340f4084103be839d7d8bc66d21"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1htags-neoforge-1.21.1-21.1.1.1-javadoc.jar",
+          "url": "gk1htags-neoforge-1.21.1-21.1.1.1-javadoc.jar",
+          "size": 175266,
+          "sha512": "d308672aa946b6474465551c7d2495132d9053d215a9f394ead56ec55ea1f5deec15c39acae9e2d3cd2c124160444ff13466497ac68a039a9a175ce703b32cde",
+          "sha256": "8deada5b583efe122371bca9d6620539d9419c7a568c07bd295194dc186848dd",
+          "sha1": "331851bfd41f7610114a5aa337faf4542b9461cf",
+          "md5": "c2e5458a97ff473484c3dd479214dff3"
+        }
+      ]
+    }
+  ]
+}
