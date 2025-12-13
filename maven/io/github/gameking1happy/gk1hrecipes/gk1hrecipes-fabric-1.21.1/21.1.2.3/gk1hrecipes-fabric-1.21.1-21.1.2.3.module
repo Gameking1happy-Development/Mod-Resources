@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1hrecipes",
+    "module": "gk1hrecipes-fabric-1.21.1",
+    "version": "21.1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hrecipes-fabric-1.21.1-21.1.2.3.jar",
+          "url": "gk1hrecipes-fabric-1.21.1-21.1.2.3.jar",
+          "size": 67591,
+          "sha512": "fd5cbcde64e68894e6acedaf937e7e039e0e64c50633319e983f009d55eaf5c571e3d666d76b122ee5c64259e5fcfa6ac3f5a3b556fda2fa6132fbcecc2d8e8a",
+          "sha256": "54306590016c505c51e09bcdabbaa2606db2e5b4e7ea3988951c8d7129e2a601",
+          "sha1": "752a63f8c7dd57cb611c82ee4767900086e20261",
+          "md5": "d0cb70288d589b0b4b537ccd0dd9a8fd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.1"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.7+1.21.1"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "metal-bundles",
+          "version": {
+            "requires": "v21.1.1-1.21.1-Fabric"
+          }
+        },
+        {
+          "group": "fuzs.puzzleslib",
+          "module": "puzzleslib-fabric",
+          "version": {
+            "requires": "21.1.39"
+          }
+        },
+        {
+          "group": "fuzs.iteminteractions",
+          "module": "iteminteractions-fabric",
+          "version": {
+            "requires": "21.1.4"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "advanced-netherite",
+          "version": {
+            "requires": "fabric-2.3.1-mc1.21.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "spiky-spikes",
+          "version": {
+            "requires": "v21.1.2-1.21.1-Fabric"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hrecipes-fabric-1.21.1-21.1.2.3.jar",
+          "url": "gk1hrecipes-fabric-1.21.1-21.1.2.3.jar",
+          "size": 67591,
+          "sha512": "fd5cbcde64e68894e6acedaf937e7e039e0e64c50633319e983f009d55eaf5c571e3d666d76b122ee5c64259e5fcfa6ac3f5a3b556fda2fa6132fbcecc2d8e8a",
+          "sha256": "54306590016c505c51e09bcdabbaa2606db2e5b4e7ea3988951c8d7129e2a601",
+          "sha1": "752a63f8c7dd57cb611c82ee4767900086e20261",
+          "md5": "d0cb70288d589b0b4b537ccd0dd9a8fd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hrecipes-fabric-1.21.1-21.1.2.3-sources.jar",
+          "url": "gk1hrecipes-fabric-1.21.1-21.1.2.3-sources.jar",
+          "size": 64222,
+          "sha512": "09470d12e7697df480059366d9a06c1be2b5b7962e15b0c18ae947a5dd75ff66cfe6cc82cf71a9309ad248e001eeb0079cbc86e4b971d1a2ab6afdf065a38954",
+          "sha256": "7c090adb8330b02804a7980c618222d8bb6d06e8b8456c47db09f011ac1248e6",
+          "sha1": "1c7ccc1cf4bd9e35c4cf7d2c68f33fbeed706b43",
+          "md5": "9461abb94f3e4c9025a2478e8e9e1ca1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hrecipes-fabric-1.21.1-21.1.2.3-javadoc.jar",
+          "url": "gk1hrecipes-fabric-1.21.1-21.1.2.3-javadoc.jar",
+          "size": 123303,
+          "sha512": "c153cb1db78d993e7d6b47981c7078e2dc8c7f86e14ead9b1a7b67c869f9d6a61237b52dea813a1e7fa51afefd6384735c5bc8c6f1eff636a51d1b29d578dc3d",
+          "sha256": "d159f58bc3c948bd304dd3b5fd63d411a2c8221a1c8a6084d0ad528176ced51c",
+          "sha1": "747d6e3bf67aa34589adafbc7c7a32365530f641",
+          "md5": "a1c296d9fb6bc5b9edb2e1c89d3d81dd"
+        }
+      ]
+    }
+  ]
+}

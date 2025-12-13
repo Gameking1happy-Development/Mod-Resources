@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1hrecipes",
+    "module": "gk1hrecipes-common-1.21.1",
+    "version": "21.1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hrecipes-common-1.21.1-21.1.2.3.jar",
+          "url": "gk1hrecipes-common-1.21.1-21.1.2.3.jar",
+          "size": 61794,
+          "sha512": "dcc15b01933c50f0175d9b7ee4a33a84493509019b5b1fbcf2f45788bea50244c2a4558b3bdbf0ab599ccfacc14b7eed0b5700b1b77cf4f6512f0c56b2c14aa7",
+          "sha256": "aaeae37ca635092ba371adf11d334656f2a9efca7ba845f266bbe7fa243d4f00",
+          "sha1": "0c87b5bc20a3ca16252f7b532aa2b212ccf75edb",
+          "md5": "50681ed816e91b6958f2f4be8695adf4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21+neoforge"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hrecipes-common-1.21.1-21.1.2.3.jar",
+          "url": "gk1hrecipes-common-1.21.1-21.1.2.3.jar",
+          "size": 61794,
+          "sha512": "dcc15b01933c50f0175d9b7ee4a33a84493509019b5b1fbcf2f45788bea50244c2a4558b3bdbf0ab599ccfacc14b7eed0b5700b1b77cf4f6512f0c56b2c14aa7",
+          "sha256": "aaeae37ca635092ba371adf11d334656f2a9efca7ba845f266bbe7fa243d4f00",
+          "sha1": "0c87b5bc20a3ca16252f7b532aa2b212ccf75edb",
+          "md5": "50681ed816e91b6958f2f4be8695adf4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hrecipes-common-1.21.1-21.1.2.3-sources.jar",
+          "url": "gk1hrecipes-common-1.21.1-21.1.2.3-sources.jar",
+          "size": 58754,
+          "sha512": "a59b8c01bc987e082939010969606a9013e5666d81f908ff5280b49c954742368e9086db4f1e55f758e3250c2fad804c6385569ac46ba71fe96cd8b370f8eee2",
+          "sha256": "c44a9a0be3747a31397004803e604d13468de8a47fa390c1213369fe68c22959",
+          "sha1": "f71d1ec77245622d544a94be41df9039b113c692",
+          "md5": "e81cb502429ded27d59aca477494bc83"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hrecipes-common-1.21.1-21.1.2.3-javadoc.jar",
+          "url": "gk1hrecipes-common-1.21.1-21.1.2.3-javadoc.jar",
+          "size": 114944,
+          "sha512": "c5b85d678822f404a507ffc99794b5d940f57aca00f9e78f0946a4e4af69ba78f3367902e26bade05c1cd5f51a7fd547c03b92725d6815c9c26b4a1cc1bb5be0",
+          "sha256": "200720f3dd51aa660fbdae174ce797c9a1be01b31eb97cdee0a956867966e698",
+          "sha1": "c383cf4d6ee57c70469fc7935113f1f2318f7b0e",
+          "md5": "785dcc8239e171758b02c95ca979fb0d"
+        }
+      ]
+    }
+  ]
+}

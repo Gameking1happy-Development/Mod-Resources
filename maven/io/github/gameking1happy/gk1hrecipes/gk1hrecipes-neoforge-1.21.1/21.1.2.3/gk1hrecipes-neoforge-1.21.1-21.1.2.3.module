@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1hrecipes",
+    "module": "gk1hrecipes-neoforge-1.21.1",
+    "version": "21.1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hrecipes-neoforge-1.21.1-21.1.2.3.jar",
+          "url": "gk1hrecipes-neoforge-1.21.1-21.1.2.3.jar",
+          "size": 95646,
+          "sha512": "730490c9ab66ff462b16086898101dd71b76ed131644793c8de1698589e7ff266a8c9591c2ddfd35057c9a6e717c4f38966dfd7058366185573343b24baa63f9",
+          "sha256": "440b3e45911375e5527a50b53966a1eaff01ff953c450bfcf505571b322fdec3",
+          "sha1": "795a0b1afc17626387a5d3a4c1bcf9942f64599a",
+          "md5": "ff3ba5314dc6e056687dccaff4b2d6fe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "maven.modrinth",
+          "module": "metal-bundles",
+          "version": {
+            "requires": "v21.1.1-1.21.1-NeoForge"
+          }
+        },
+        {
+          "group": "fuzs.puzzleslib",
+          "module": "puzzleslib-neoforge",
+          "version": {
+            "requires": "21.1.39"
+          }
+        },
+        {
+          "group": "fuzs.iteminteractions",
+          "module": "iteminteractions-neoforge",
+          "version": {
+            "requires": "21.1.4"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21+neoforge"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "advanced-netherite",
+          "version": {
+            "requires": "neoforge-2.3.1-mc1.21.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "spiky-spikes",
+          "version": {
+            "requires": "v21.1.2-1.21.1-NeoForge"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-neoforge-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1hrecipes-neoforge-1.21.1-21.1.2.3.jar",
+          "url": "gk1hrecipes-neoforge-1.21.1-21.1.2.3.jar",
+          "size": 95646,
+          "sha512": "730490c9ab66ff462b16086898101dd71b76ed131644793c8de1698589e7ff266a8c9591c2ddfd35057c9a6e717c4f38966dfd7058366185573343b24baa63f9",
+          "sha256": "440b3e45911375e5527a50b53966a1eaff01ff953c450bfcf505571b322fdec3",
+          "sha1": "795a0b1afc17626387a5d3a4c1bcf9942f64599a",
+          "md5": "ff3ba5314dc6e056687dccaff4b2d6fe"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hrecipes-neoforge-1.21.1-21.1.2.3-sources.jar",
+          "url": "gk1hrecipes-neoforge-1.21.1-21.1.2.3-sources.jar",
+          "size": 78601,
+          "sha512": "8be3af1368490a26f583b3d95d5cf2ea599918b854b4970239fc2381bf4cc10b2d96c5123e9ad7517a0302a30ce25c9d2b506c21d9fa1e1ca00504bebb4d1886",
+          "sha256": "0d45aebb001cb8ec16ffe7ebffad22dcbb5a7f25b21d00ae7cc1eddd74d4153b",
+          "sha1": "e98b3c1a8a4499116b145f5da3f4e03a681bb4e4",
+          "md5": "651e3408b84c4ff0ee70a75200ad2f31"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1hrecipes-neoforge-1.21.1-21.1.2.3-javadoc.jar",
+          "url": "gk1hrecipes-neoforge-1.21.1-21.1.2.3-javadoc.jar",
+          "size": 227041,
+          "sha512": "94bc6b884d359ad8e0a673df0e633c36aa6e10797f6d43c34503789aaf675f94710c542c8dc3ef2dd55808b30b4a1267f0cb995d05047f68ec9ee5bcbb67b041",
+          "sha256": "828ca54fba6f571295bac125f79b566dd0e952305ed72be1d2914ba1e254ab3c",
+          "sha1": "dc1ae9ba1ef8c57dbf8cde3f41b0df43de805d86",
+          "md5": "ad086c16148039200a115af6546bda70"
+        }
+      ]
+    }
+  ]
+}
