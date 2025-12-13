@@ -1,0 +1,258 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1henchants",
+    "module": "gk1henchants-fabric-1.21.1",
+    "version": "21.1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1henchants-fabric-1.21.1-21.1.1.1.jar",
+          "url": "gk1henchants-fabric-1.21.1-21.1.1.1.jar",
+          "size": 51102,
+          "sha512": "a65ba83f1c37d3b8f015391c2d676bcd9fba5e54b333cd25355f1bdfc4dab2194bb4499e1cc20def8b552af40c66167cecf4ef3b1b68ca1736659dc981b8f527",
+          "sha256": "13525934be99a3652b94c811b39c0e1e4e087e6e2b9e4c347952c93e685c98a2",
+          "sha1": "32ba8bb8f113099dde02705d1454a1958429d64c",
+          "md5": "1555fc844209d8cd1b87058145baf01f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.1.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.1"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.7+1.21.1"
+          }
+        },
+        {
+          "group": "me.fzzyhmstrs",
+          "module": "fzzy_config",
+          "version": {
+            "requires": "0.7.3+1.21"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "universal-enchants",
+          "version": {
+            "requires": "v21.1.6-1.21.1-Fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "netherite-extras",
+          "version": {
+            "requires": "0.4.0+mc1.21"
+          }
+        },
+        {
+          "group": "fuzs.puzzleslib",
+          "module": "puzzleslib-fabric",
+          "version": {
+            "requires": "21.1.39"
+          }
+        },
+        {
+          "group": "io.wispforest",
+          "module": "owo-lib",
+          "version": {
+            "requires": "0.12.15.4+1.21"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "emi-enchanting",
+          "version": {
+            "requires": "0.1.2+1.21"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "emi-loot",
+          "version": {
+            "requires": "0.7.7+1.21+fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "emi-ores",
+          "version": {
+            "requires": "1.2+1.21.1+fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "emi-professions-(emip)",
+          "version": {
+            "requires": "1.0.3-fabric,1.21.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "emixx",
+          "version": {
+            "requires": "1.2.3-fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "emiffect",
+          "version": {
+            "requires": "2.1.6+mc1.21.1-fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "lmft",
+          "version": {
+            "requires": "1.1.1+1.21.9-fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "netherited-fireproof",
+          "version": {
+            "requires": "2.0.2-fabric"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-language-kotlin",
+          "version": {
+            "requires": "1.13.7+kotlin.2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1henchants-fabric-1.21.1-21.1.1.1.jar",
+          "url": "gk1henchants-fabric-1.21.1-21.1.1.1.jar",
+          "size": 51102,
+          "sha512": "a65ba83f1c37d3b8f015391c2d676bcd9fba5e54b333cd25355f1bdfc4dab2194bb4499e1cc20def8b552af40c66167cecf4ef3b1b68ca1736659dc981b8f527",
+          "sha256": "13525934be99a3652b94c811b39c0e1e4e087e6e2b9e4c347952c93e685c98a2",
+          "sha1": "32ba8bb8f113099dde02705d1454a1958429d64c",
+          "md5": "1555fc844209d8cd1b87058145baf01f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1henchants-fabric-1.21.1-21.1.1.1-sources.jar",
+          "url": "gk1henchants-fabric-1.21.1-21.1.1.1-sources.jar",
+          "size": 23196,
+          "sha512": "6ccdbb42e5b87dbc0d64b811ad01f7d3d326d0cb56df7b5ebd0bfcd7fe18b6eb724fd4959d56dc395f6c8013d3f9899db6b9ab96c0427b511f2fcdd7c98ce75c",
+          "sha256": "fd7bdb879fd5df614d35fa3096305f1779f80c4b2962064bc63f65310fc36897",
+          "sha1": "eb2f0be92c9fdc421f1af9c2f1ce3d13c525a13b",
+          "md5": "135c3f23e29d9cefaf0a91fd5e1f3c8d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1henchants-fabric-1.21.1-21.1.1.1-javadoc.jar",
+          "url": "gk1henchants-fabric-1.21.1-21.1.1.1-javadoc.jar",
+          "size": 128629,
+          "sha512": "0f4e91fc9e42da8bd2c740208777ab1a713b7588ad63c907268cb494d150b4bfb9affa6c725ff3eab61731e4af86497029a5b0f35c57b943f37c7d2c12dd878e",
+          "sha256": "349feedef38b63345455a504b2e9c685562794707baaf4da958ad993e659df2a",
+          "sha1": "2f4be06ce1d561df0df729fd67b198ee5acac702",
+          "md5": "b8668618e3691834027df6bcf57bbde1"
+        }
+      ]
+    }
+  ]
+}
