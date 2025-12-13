@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1htravelersbackpackplus",
+    "module": "gk1htravelersbackpackplus-fabric-1.21.1",
+    "version": "21.1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1htravelersbackpackplus-fabric-1.21.1-21.1.1.1.jar",
+          "url": "gk1htravelersbackpackplus-fabric-1.21.1-21.1.1.1.jar",
+          "size": 9990,
+          "sha512": "d16de88e245e79557bb0db17719f423a48b8ec4a46c35c710ace3264eae714d86a45fc3d29a3fff9a69df56878b18ac8cc858265deb9d061840e5dc352fc810d",
+          "sha256": "574839174e85a765a3513ed41f9e458cfecca8704a195dc342ee069a02863d8e",
+          "sha1": "117dd235aac32ef1ab176eb52dc3ed54d5e54125",
+          "md5": "7ed3a1504799f675532172ee7dd169eb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-fabric-1.21.1",
+          "version": {
+            "requires": "21.1.1.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.1"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.7+1.21.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "travelersbackpack",
+          "version": {
+            "requires": "1.21.1-10.1.29-fabric"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-base",
+          "version": {
+            "requires": "6.1.3"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-entity",
+          "version": {
+            "requires": "6.1.3"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1htravelersbackpackplus-fabric-1.21.1-21.1.1.1.jar",
+          "url": "gk1htravelersbackpackplus-fabric-1.21.1-21.1.1.1.jar",
+          "size": 9990,
+          "sha512": "d16de88e245e79557bb0db17719f423a48b8ec4a46c35c710ace3264eae714d86a45fc3d29a3fff9a69df56878b18ac8cc858265deb9d061840e5dc352fc810d",
+          "sha256": "574839174e85a765a3513ed41f9e458cfecca8704a195dc342ee069a02863d8e",
+          "sha1": "117dd235aac32ef1ab176eb52dc3ed54d5e54125",
+          "md5": "7ed3a1504799f675532172ee7dd169eb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1htravelersbackpackplus-fabric-1.21.1-21.1.1.1-sources.jar",
+          "url": "gk1htravelersbackpackplus-fabric-1.21.1-21.1.1.1-sources.jar",
+          "size": 8977,
+          "sha512": "dc0302f230af617ff611ce82867288ce57010019849396b1f1012bcc7090c038adca4a7c7e00d183f59c23bbf21eebe3493a717b0bfc37808c374b30140b40c4",
+          "sha256": "698c5c53516c5ba04d309230497a462ee1027aa847f88d04e54a41ec51959088",
+          "sha1": "8e95dacb9e8a2645e1fbe94d01323f37c514d28f",
+          "md5": "817e43bf2d60a8d7978f16ab62de031f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1htravelersbackpackplus-fabric-1.21.1-21.1.1.1-javadoc.jar",
+          "url": "gk1htravelersbackpackplus-fabric-1.21.1-21.1.1.1-javadoc.jar",
+          "size": 104088,
+          "sha512": "fa530a1aaef27b3c2f806689465e9c147a2ea1c22e8f42e647426ca513074de20a4a3ec77d781c219066398aac36173a4866361ada9bcbe7f69d07f80380f6e5",
+          "sha256": "0dd84c04776b1f9b34ea7bc1ac35d292e1f52a9783306694dc58eb2f84274701",
+          "sha1": "ae2ca6dab14899139f35364421512331d2b316fa",
+          "md5": "757413ef10950a0c56d52721cc72cea8"
+        }
+      ]
+    }
+  ]
+}

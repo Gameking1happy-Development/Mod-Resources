@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gameking1happy.gk1htravelersbackpackplus",
+    "module": "gk1htravelersbackpackplus-common-1.21.1",
+    "version": "21.1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-common-1.21.1",
+          "version": {
+            "requires": "21.1.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1htravelersbackpackplus-common-1.21.1-21.1.1.1.jar",
+          "url": "gk1htravelersbackpackplus-common-1.21.1-21.1.1.1.jar",
+          "size": 6660,
+          "sha512": "6c650e22d5379b35e38d09565a7a2858ad1be0720fe55740d153f053314f82dbc66e4b6c5c1b1f9cb2d5de45f9f2087622b3fa175efa53ff7b0720e906bb4299",
+          "sha256": "9f9d0b61fbe021b23bb68a5a38889e93e653f2ccc5b776c7fbd7be1beeac5176",
+          "sha1": "ebf0b3cb30b029ff4c9e8c75bf8fa6b60c98ddd1",
+          "md5": "8501cad41f4dd9aa101f6c476c7e914a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "maven.modrinth",
+          "module": "travelersbackpack",
+          "version": {
+            "requires": "1.21.1-10.1.29-neoforge"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1hcore",
+          "module": "gk1hcore-common-1.21.1",
+          "version": {
+            "requires": "21.1.2.4"
+          }
+        },
+        {
+          "group": "io.github.gameking1happy.gk1htags",
+          "module": "gk1htags-common-1.21.1",
+          "version": {
+            "requires": "21.1.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gk1htravelersbackpackplus-common-1.21.1-21.1.1.1.jar",
+          "url": "gk1htravelersbackpackplus-common-1.21.1-21.1.1.1.jar",
+          "size": 6660,
+          "sha512": "6c650e22d5379b35e38d09565a7a2858ad1be0720fe55740d153f053314f82dbc66e4b6c5c1b1f9cb2d5de45f9f2087622b3fa175efa53ff7b0720e906bb4299",
+          "sha256": "9f9d0b61fbe021b23bb68a5a38889e93e653f2ccc5b776c7fbd7be1beeac5176",
+          "sha1": "ebf0b3cb30b029ff4c9e8c75bf8fa6b60c98ddd1",
+          "md5": "8501cad41f4dd9aa101f6c476c7e914a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1htravelersbackpackplus-common-1.21.1-21.1.1.1-sources.jar",
+          "url": "gk1htravelersbackpackplus-common-1.21.1-21.1.1.1-sources.jar",
+          "size": 6158,
+          "sha512": "3e00971308c1187d018e2ed56024ffa12d10aa7a81cddb7c9004ed2230a9487ffe7bac6d3b465ca7278f2a7d91212847d2c771a7d63f96ddc47aafa4e839d104",
+          "sha256": "5bf9cf13db4df774b5641be01ec1b765061c8a67896458fb746bdb53fcd48c28",
+          "sha1": "31b95b6f1e2295d17f45e0afab8f5d0c4408cc58",
+          "md5": "7a703f70a181dfe993e5bd143289c73e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gk1htravelersbackpackplus-common-1.21.1-21.1.1.1-javadoc.jar",
+          "url": "gk1htravelersbackpackplus-common-1.21.1-21.1.1.1-javadoc.jar",
+          "size": 95606,
+          "sha512": "c60aa21ac06e931af853c3f2867ca180b64487023e3ccdc02ff29a8ec7d479b2fbd532e93fc83e447855dd22355af8e53b0ec5e70228469d452edcc2b79dd720",
+          "sha256": "bb9281a724fe064259f46c368295670c5e4da920c16fa2b576da8ebf19290265",
+          "sha1": "b286408c89bde11ac042d399ce4a1219abea94b7",
+          "md5": "345e25736469149ed4e4e65ed8619db6"
+        }
+      ]
+    }
+  ]
+}
