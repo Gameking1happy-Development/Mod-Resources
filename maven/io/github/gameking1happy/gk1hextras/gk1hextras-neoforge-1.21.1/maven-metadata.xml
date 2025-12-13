@@ -3,11 +3,12 @@
   <groupId>io.github.gameking1happy.gk1hextras</groupId>
   <artifactId>gk1hextras-neoforge-1.21.1</artifactId>
   <versioning>
-    <latest>21.1.1.0</latest>
-    <release>21.1.1.0</release>
+    <latest>21.1.1.1</latest>
+    <release>21.1.1.1</release>
     <versions>
       <version>21.1.1.0</version>
+      <version>21.1.1.1</version>
     </versions>
-    <lastUpdated>20251129001752</lastUpdated>
+    <lastUpdated>20251213173702</lastUpdated>
   </versioning>
 </metadata>
