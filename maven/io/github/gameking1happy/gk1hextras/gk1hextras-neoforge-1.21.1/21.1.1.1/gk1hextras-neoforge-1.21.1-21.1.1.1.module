@@ -36,11 +36,11 @@
         {
           "name": "gk1hextras-neoforge-1.21.1-21.1.1.1.jar",
           "url": "gk1hextras-neoforge-1.21.1-21.1.1.1.jar",
-          "size": 24663,
-          "sha512": "89dcb9d4a6392ff5c9f4d722b43059ddab8b735ba91baba578bceea2db1785c12fc9d48f373e2991948d996703a95cfb22ae46bfbf64632401229899372aaa22",
-          "sha256": "65702d29569851b880434ba7fd65e1a20aae8b90416226b457b0f119fd994ed3",
-          "sha1": "8d6d4957023d2217491a61140addd74ee2bd9745",
-          "md5": "e1e5f8b5d74b4a8e5307ac44cb370e11"
+          "size": 24664,
+          "sha512": "342f7ddbf2eb34f78b594cc4887a7e4b7a0856e9163dbc704b8bc2517983fac616bc9b8d8f9e2c82cd008bc2998241849edb34b7dfa0a198b1a96ddb375dc4e2",
+          "sha256": "3ebecf14ea9b19866b49fdad46b8bea9d5d622eac7e6c5f8a4554a9e7bc37da2",
+          "sha1": "94b3837e6634f70207c9d9969d7b3e739387d392",
+          "md5": "31797fbf159851deae76e7bf9039b2fe"
         }
       ]
     },
@@ -58,7 +58,7 @@
           "group": "me.fzzyhmstrs",
           "module": "fzzy_config",
           "version": {
-            "requires": "0.7.3+1.21+neoforge"
+            "requires": "0.7.4+1.21+neoforge"
           }
         },
         {
@@ -94,11 +94,11 @@
         {
           "name": "gk1hextras-neoforge-1.21.1-21.1.1.1.jar",
           "url": "gk1hextras-neoforge-1.21.1-21.1.1.1.jar",
-          "size": 24663,
-          "sha512": "89dcb9d4a6392ff5c9f4d722b43059ddab8b735ba91baba578bceea2db1785c12fc9d48f373e2991948d996703a95cfb22ae46bfbf64632401229899372aaa22",
-          "sha256": "65702d29569851b880434ba7fd65e1a20aae8b90416226b457b0f119fd994ed3",
-          "sha1": "8d6d4957023d2217491a61140addd74ee2bd9745",
-          "md5": "e1e5f8b5d74b4a8e5307ac44cb370e11"
+          "size": 24664,
+          "sha512": "342f7ddbf2eb34f78b594cc4887a7e4b7a0856e9163dbc704b8bc2517983fac616bc9b8d8f9e2c82cd008bc2998241849edb34b7dfa0a198b1a96ddb375dc4e2",
+          "sha256": "3ebecf14ea9b19866b49fdad46b8bea9d5d622eac7e6c5f8a4554a9e7bc37da2",
+          "sha1": "94b3837e6634f70207c9d9969d7b3e739387d392",
+          "md5": "31797fbf159851deae76e7bf9039b2fe"
         }
       ]
     },
@@ -114,11 +114,11 @@
         {
           "name": "gk1hextras-neoforge-1.21.1-21.1.1.1-sources.jar",
           "url": "gk1hextras-neoforge-1.21.1-21.1.1.1-sources.jar",
-          "size": 18462,
-          "sha512": "511c9a0fcabc29d2e136637fdd04b80af902485e3073173540728a84a932e7244c02717cb5e8cc0502ad5095ee20021f095daf569b90cf703810ac736d8169f7",
-          "sha256": "c53e57004a3af7f74a2ab15f8683c9291410061d7ea8435f4201af96224d2745",
-          "sha1": "36937ac0b73411f05128477ae289a9e82e42452d",
-          "md5": "82dec2bff4e77c2b0454b705b93b914e"
+          "size": 18457,
+          "sha512": "07ccd12735b362219f3e099e4e1c13edb3a0a35feb7487208c1ca1798a3b79e4ffa3bc8a84a4cbf3ed5a58d1857126a02b9560546c44270a393563ff60cf59c1",
+          "sha256": "0ba4c8ce76b20ab7029e2be401d4a2b9b5c8a7a20fbee9162baa43411002a4ec",
+          "sha1": "254d2608d1874b037eb1df969729163880a556fe",
+          "md5": "cb5d289a788252af42f6841cef1fdf3e"
         }
       ]
     },
@@ -134,11 +134,11 @@
         {
           "name": "gk1hextras-neoforge-1.21.1-21.1.1.1-javadoc.jar",
           "url": "gk1hextras-neoforge-1.21.1-21.1.1.1-javadoc.jar",
-          "size": 151399,
-          "sha512": "6ff7c249e32a562144ac4427747191d76b0d6ff58ea0cca90875e7c23b7b0dd3d8c84d5e094178e1ce981257506b00925db475391f8783eccfec7a6ec4aa03cf",
-          "sha256": "f63eea9d5f6a40d60a346ceedc3ab61e8916456c37aad96adef1649548bfb72c",
-          "sha1": "3479cdac31452cdcbbe4f02c7e2b473d4cc4b85a",
-          "md5": "b79280ed288270681345a887f0396ceb"
+          "size": 151400,
+          "sha512": "8abb556faea7a7d1bf573b42025a3d488155d7f7e981532dad15be0170ff41024b2c90a89da52a36fc8e7b858d7d9d813233e89c406fd4a74e407097a9b311cf",
+          "sha256": "3fa8e9b990fa6066b3efaba1ff921ed566b598625e4bafff1be2b2e9152bc5e3",
+          "sha1": "046a6430107eadf2d37409a4965cce462f8b1555",
+          "md5": "3fabcf109da6cc6273d838805711e53b"
         }
       ]
     }

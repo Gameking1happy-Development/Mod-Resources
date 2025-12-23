@@ -20,7 +20,7 @@
     <dependency>
       <groupId>net.fabricmc</groupId>
       <artifactId>fabric-loader</artifactId>
-      <version>0.18.1</version>
+      <version>0.18.3</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -32,19 +32,13 @@
     <dependency>
       <groupId>me.fzzyhmstrs</groupId>
       <artifactId>fzzy_config</artifactId>
-      <version>0.7.3+1.21</version>
+      <version>0.7.4+1.21</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.terraformersmc</groupId>
       <artifactId>modmenu</artifactId>
       <version>11.0.3</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>maven.modrinth</groupId>
-      <artifactId>ender-zoology</artifactId>
-      <version>v21.1.4-1.21.1-Fabric</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -57,6 +51,12 @@
       <groupId>fuzs.puzzleslib</groupId>
       <artifactId>puzzleslib-fabric</artifactId>
       <version>21.1.39</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>maven.modrinth</groupId>
+      <artifactId>ender-zoology</artifactId>
+      <version>v21.1.4-1.21.1-Fabric</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

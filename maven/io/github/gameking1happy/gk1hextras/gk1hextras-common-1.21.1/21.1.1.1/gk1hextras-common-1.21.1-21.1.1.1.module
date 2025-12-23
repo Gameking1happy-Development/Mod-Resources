@@ -36,11 +36,11 @@
         {
           "name": "gk1hextras-common-1.21.1-21.1.1.1.jar",
           "url": "gk1hextras-common-1.21.1-21.1.1.1.jar",
-          "size": 11617,
-          "sha512": "6474341045aa69df238644017f83931e45c05774587b2a032b46841089e101b7a5728f26fdadcc4151ccc42bb5fa85ffc350c20c7fb232d30e4f9bf3eb74988c",
-          "sha256": "480de612d723125598e2c9331e592cf48f89221449502732bfd13f1f0ac540a4",
-          "sha1": "e01521390dcf2c451b7517e226a80469f808d6c7",
-          "md5": "7f4028a31b57818b344e2c27cb69f95b"
+          "size": 11618,
+          "sha512": "cc29cf5477e82ed726bee427869d663779a2a22bfdd121c5548f843b8171d8d0a2149a8d02b1e54a6987f4f4eb4bceadbbd0e325fabf40aeb478ab17c99ac8d4",
+          "sha256": "d7c0b25681d3389a61d04c3056e57c11400cd1c8f7616929b251db35214adef1",
+          "sha1": "deb072f4c059c38afbcc5170f6760eb67e9d97bf",
+          "md5": "df0c1d6284822dafd6b8a54f4601bff4"
         }
       ]
     },
@@ -58,7 +58,7 @@
           "group": "me.fzzyhmstrs",
           "module": "fzzy_config",
           "version": {
-            "requires": "0.7.3+1.21+neoforge"
+            "requires": "0.7.4+1.21+neoforge"
           }
         },
         {
@@ -73,11 +73,11 @@
         {
           "name": "gk1hextras-common-1.21.1-21.1.1.1.jar",
           "url": "gk1hextras-common-1.21.1-21.1.1.1.jar",
-          "size": 11617,
-          "sha512": "6474341045aa69df238644017f83931e45c05774587b2a032b46841089e101b7a5728f26fdadcc4151ccc42bb5fa85ffc350c20c7fb232d30e4f9bf3eb74988c",
-          "sha256": "480de612d723125598e2c9331e592cf48f89221449502732bfd13f1f0ac540a4",
-          "sha1": "e01521390dcf2c451b7517e226a80469f808d6c7",
-          "md5": "7f4028a31b57818b344e2c27cb69f95b"
+          "size": 11618,
+          "sha512": "cc29cf5477e82ed726bee427869d663779a2a22bfdd121c5548f843b8171d8d0a2149a8d02b1e54a6987f4f4eb4bceadbbd0e325fabf40aeb478ab17c99ac8d4",
+          "sha256": "d7c0b25681d3389a61d04c3056e57c11400cd1c8f7616929b251db35214adef1",
+          "sha1": "deb072f4c059c38afbcc5170f6760eb67e9d97bf",
+          "md5": "df0c1d6284822dafd6b8a54f4601bff4"
         }
       ]
     },
@@ -93,11 +93,11 @@
         {
           "name": "gk1hextras-common-1.21.1-21.1.1.1-sources.jar",
           "url": "gk1hextras-common-1.21.1-21.1.1.1-sources.jar",
-          "size": 9681,
-          "sha512": "f6aefa598a99fe37ec1a08011c124469f78729442e68e8d1e91b7cf51a6ec5a36438280ac081f6a5c4793cf215151cc284e735112bb305bd951b2cc8a90fb240",
-          "sha256": "08f63ace789a06c381eaab4d11b58acf6f83169b1cf985980d4c9a7d4bd0ad9e",
-          "sha1": "f015f587ae7146e64e77fc7be0ef778b5b287759",
-          "md5": "7a667c550668168d452ad169bd72d62b"
+          "size": 9683,
+          "sha512": "29621e78467dd12baa293d0736a91ddc24e698700ce08aa8445ccb2fd803894090fa3acac028e1b162d7e33c063c646ffbf996df52a6e9b6a29569917a9e6189",
+          "sha256": "cf0c518999af2a21fa030b30072dc2a7eae8d12b293326616bc31ade76d04f2c",
+          "sha1": "29c0c188ba1dc2f3602fb112fadc7f43d0fc92a1",
+          "md5": "754d13ff5cdd7fa923075e72bcdd4d49"
         }
       ]
     },
@@ -113,11 +113,11 @@
         {
           "name": "gk1hextras-common-1.21.1-21.1.1.1-javadoc.jar",
           "url": "gk1hextras-common-1.21.1-21.1.1.1-javadoc.jar",
-          "size": 108275,
-          "sha512": "85feb1da44632dc6daa059f48db6d43d2bb6ba5af15d7c0896f230cee90e64b5b174fa29861d2bb84d219b8a3b926509e1c224387aaa281e08aa7cb2e80d0701",
-          "sha256": "fdaab873b7d7de1ab864985ac5693cac57fbb1d705154dd3f68b50448148788a",
-          "sha1": "ff5907b6bb1783065e4fa2ac49684142bf675170",
-          "md5": "a6525dc7ec40488c4f8d72ebab97bfa8"
+          "size": 108276,
+          "sha512": "b355e5a05882137057d225e7d931694ea935e9199900d84c4098a15c9f8a4aaabdc00d058c2977668700bb1ae16cde4481d75242f5deea7d58cee93cf0e78505",
+          "sha256": "213e395ed821522ceff4d4585c68d6b947113786cebd4af6907298820e252255",
+          "sha1": "5f378cd05cde31a53762e2268abdc1e376fd5216",
+          "md5": "cfc170b6ad5aed9ea779936e260fcb47"
         }
       ]
     }

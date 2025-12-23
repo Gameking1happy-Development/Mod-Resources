@@ -36,11 +36,11 @@
         {
           "name": "gk1hextras-fabric-1.21.1-21.1.1.1.jar",
           "url": "gk1hextras-fabric-1.21.1-21.1.1.1.jar",
-          "size": 16448,
-          "sha512": "f3a03fe8804b1458b9fe89ddb077db8f5cf9c6dd203c0a448cdb89afb53f12c7ff01e2bc688cf3c5fb9c115f6c111b98a61cd57496710cf9632f97782ba69e7e",
-          "sha256": "33f148c826bd3296abdaedf0179ee1bc3e506c6c148de74b7166a52fd475d004",
-          "sha1": "a4cb5b3e95ca7ff7d3e345fa7706f909ac6dd53d",
-          "md5": "3d718e4ec9c73ba717efdd9362a6bf3e"
+          "size": 16451,
+          "sha512": "0c95622b988a537a54169432368b43f79445226577560b546c7b323387b92ca130c986faeb620a00726f41641faaf7ce93290db17363fcd535544131b21dc660",
+          "sha256": "a6c0fc9ff988b8f7da65cb8227069bdfc4091558bbd1b494992c63d4cb5a9dc3",
+          "sha1": "d8db105441a6a0e20194e8c98352db226dba066a",
+          "md5": "7af1abc98cb1eb3c36a04bd7fefcda81"
         }
       ]
     },
@@ -65,7 +65,7 @@
           "group": "net.fabricmc",
           "module": "fabric-loader",
           "version": {
-            "requires": "0.18.1"
+            "requires": "0.18.3"
           }
         },
         {
@@ -79,7 +79,7 @@
           "group": "me.fzzyhmstrs",
           "module": "fzzy_config",
           "version": {
-            "requires": "0.7.3+1.21"
+            "requires": "0.7.4+1.21"
           }
         },
         {
@@ -87,13 +87,6 @@
           "module": "modmenu",
           "version": {
             "requires": "11.0.3"
-          }
-        },
-        {
-          "group": "maven.modrinth",
-          "module": "ender-zoology",
-          "version": {
-            "requires": "v21.1.4-1.21.1-Fabric"
           }
         },
         {
@@ -109,17 +102,24 @@
           "version": {
             "requires": "21.1.39"
           }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "ender-zoology",
+          "version": {
+            "requires": "v21.1.4-1.21.1-Fabric"
+          }
         }
       ],
       "files": [
         {
           "name": "gk1hextras-fabric-1.21.1-21.1.1.1.jar",
           "url": "gk1hextras-fabric-1.21.1-21.1.1.1.jar",
-          "size": 16448,
-          "sha512": "f3a03fe8804b1458b9fe89ddb077db8f5cf9c6dd203c0a448cdb89afb53f12c7ff01e2bc688cf3c5fb9c115f6c111b98a61cd57496710cf9632f97782ba69e7e",
-          "sha256": "33f148c826bd3296abdaedf0179ee1bc3e506c6c148de74b7166a52fd475d004",
-          "sha1": "a4cb5b3e95ca7ff7d3e345fa7706f909ac6dd53d",
-          "md5": "3d718e4ec9c73ba717efdd9362a6bf3e"
+          "size": 16451,
+          "sha512": "0c95622b988a537a54169432368b43f79445226577560b546c7b323387b92ca130c986faeb620a00726f41641faaf7ce93290db17363fcd535544131b21dc660",
+          "sha256": "a6c0fc9ff988b8f7da65cb8227069bdfc4091558bbd1b494992c63d4cb5a9dc3",
+          "sha1": "d8db105441a6a0e20194e8c98352db226dba066a",
+          "md5": "7af1abc98cb1eb3c36a04bd7fefcda81"
         }
       ]
     },
@@ -135,11 +135,11 @@
         {
           "name": "gk1hextras-fabric-1.21.1-21.1.1.1-sources.jar",
           "url": "gk1hextras-fabric-1.21.1-21.1.1.1-sources.jar",
-          "size": 13088,
-          "sha512": "3b5cdf1df877b61dd028cb3afe47b051289d40061a277c6102dc8c48905073ca9104ef3a928d2d15adcc715d663b614acb41fade571a23b337c5b89f59942adc",
-          "sha256": "bf6ceb152a3f3c3240ac70e0f374e5d893c52619f23f6374844a7f8e7cdf48bc",
-          "sha1": "b0dfd784e78a1727b0bd4d4494a072fb95018bbb",
-          "md5": "5737adfd87dfdaebf1003d5cbf6fefd0"
+          "size": 13090,
+          "sha512": "81a7d9929a9655aaa78cbb36bbdd7ae514c77f63855422d6c40e9a5d7b2bd12786e1f702743ffbf1958d1b353686667fb93e78a266ad55fa640b438296b45380",
+          "sha256": "56dc01ec9ec9ad311a5b4021e491d71c786c49efb54457bbc09d03ff5a6c9cc4",
+          "sha1": "6fea72d4dd20a3f5850f25d7c4a60c7844e25eed",
+          "md5": "f0f2e5225d4bc18a9fdc57d68252aa39"
         }
       ]
     },
@@ -155,11 +155,11 @@
         {
           "name": "gk1hextras-fabric-1.21.1-21.1.1.1-javadoc.jar",
           "url": "gk1hextras-fabric-1.21.1-21.1.1.1-javadoc.jar",
-          "size": 116616,
-          "sha512": "7aacb42dd8737742d355b819b1725d388c33653150321dc61d4d645b49dc1d04f517de1e0c7092c9e223321211d8f8ae8a5a7db65668976c0c967ce79072db84",
-          "sha256": "964ca7b08787c27036b85a809dcef838ebef767159c0687b6c0fc6936d984c5e",
-          "sha1": "192fc31e4b1c32ed09b885c15b21530db37bc0ce",
-          "md5": "00dd763d1a2280d410517ba520644ded"
+          "size": 116617,
+          "sha512": "631ce52252dcd4429029594781bd33d1ffd2d6d33a465b2de31e98a49300ad25d8d75e77ba7255144b100175144dca093a67516a6d479d151e34e6ad1affd7eb",
+          "sha256": "351fbc5d3810e2187fcf27d0c7a08b6a06870daf63be69eeb796c2b09224c564",
+          "sha1": "516ac4993cb6811823cb55b7bd5874ee7743f91e",
+          "md5": "e95b0df361e70ff1e4a78b7852d7261b"
         }
       ]
     }

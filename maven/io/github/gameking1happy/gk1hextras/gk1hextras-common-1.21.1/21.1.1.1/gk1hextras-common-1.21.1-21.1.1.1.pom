@@ -20,7 +20,7 @@
     <dependency>
       <groupId>me.fzzyhmstrs</groupId>
       <artifactId>fzzy_config</artifactId>
-      <version>0.7.3+1.21+neoforge</version>
+      <version>0.7.4+1.21+neoforge</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
